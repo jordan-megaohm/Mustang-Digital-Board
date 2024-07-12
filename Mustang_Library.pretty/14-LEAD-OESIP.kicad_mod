@@ -1,0 +1,313 @@
+(footprint "14-LEAD-OESIP"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "14-Lead-OESIP")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at -0.284 0.006 0)
+		(layer "F.SilkS")
+		(uuid "6d68f78e-327b-4cdc-b04c-aa327d3acc25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MAX30101EFD+T"
+		(at -0.284 0.006 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a3bed9e1-e3ad-416e-af3c-a8cbc6cea8ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "MAX30101EFD+T:14-LEAD-OESIP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "257306f6-84cd-40c7-9a46-e4b7578ee813")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "Datasheet/max30101.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c356c0f-a049-46de-9324-9deb1dcd12f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Biometric Sensors Integrated Optical Sensor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da068b0b-cd77-4444-9919-1666778fe93b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ea35449-1bbf-4239-9202-6d6a46b42f57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "700-MAX30101EFD+T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83ff0622-b87f-406c-bff6-187518cfc48e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX30101EFD%2bT?qs=sITqEBh490kEm6CNcTH1tQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "143a4fe5-72e4-4fa6-a53b-d2a58c4b2fb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Analog Devices"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f5db35a-577c-4ae9-ad27-d284653861a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MAX30101EFD+T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af1ed210-adf6-41a7-9bf0-5ca621225267")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 -2.8)
+		(end 1.65 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8fd99b5-6173-48d9-a014-23bae199434d")
+	)
+	(fp_line
+		(start 1.65 2.8)
+		(end -1.65 2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "920cb644-0c4c-49f7-bff0-24132cb55a5c")
+	)
+	(fp_circle
+		(center -2.219 -2.603)
+		(end -2.219 -2.54333)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5a97117f-0cf9-475e-b5d9-f122f23fce06")
+	)
+	(fp_line
+		(start -1.65 -2.8)
+		(end 1.65 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4484d96-11ee-48f4-96d8-55e343e6a260")
+	)
+	(fp_line
+		(start -1.65 2.8)
+		(end -1.65 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d47f12d5-c0ef-4cb9-8e3f-60afc6998ef5")
+	)
+	(fp_line
+		(start 1.65 -2.8)
+		(end 1.65 2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4bcb615d-7f5c-40fc-9800-5a0daf8ca312")
+	)
+	(fp_line
+		(start 1.65 2.8)
+		(end -1.65 2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "435e5734-00de-4d16-a797-5f62a65bbbcb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.284 0.006 0)
+		(layer "F.Fab")
+		(uuid "fd60f8bc-fe6a-4ab6-8a7c-512e31c0b699")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 -2.4 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c1ec4c36-f044-4b1a-ba8b-7ee7f4c0d94c")
+	)
+	(pad "2" smd rect
+		(at -1.2 -1.6 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a49b5078-018f-45a4-a007-969aad30f16b")
+	)
+	(pad "3" smd rect
+		(at -1.2 -0.8 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "47d92350-6868-43a5-98c9-a32ee3ff700d")
+	)
+	(pad "4" smd rect
+		(at -1.2 0 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4827f709-1205-414a-8176-b23dc474ba81")
+	)
+	(pad "5" smd rect
+		(at -1.2 0.8 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3494dc4a-c710-4393-b63f-936b1867ef9a")
+	)
+	(pad "6" smd rect
+		(at -1.2 1.6 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "49567ac9-d260-49a7-8368-db90d50a2e28")
+	)
+	(pad "7" smd rect
+		(at -1.2 2.4 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d7af16b2-8069-4d40-9d68-ac4dfdff272e")
+	)
+	(pad "8" smd rect
+		(at 1.2 2.4 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "56b02dda-c605-43bf-9959-f1128e2793f6")
+	)
+	(pad "9" smd rect
+		(at 1.2 1.6 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ab54ca0a-25a9-4101-8eea-e1c0f1a3c4f2")
+	)
+	(pad "10" smd rect
+		(at 1.2 0.8 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "12277e9c-afdc-4770-8096-308c51c387c2")
+	)
+	(pad "11" smd rect
+		(at 1.2 0 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "23020ca9-65e2-4b0b-b1e4-98d4d7cfbe2c")
+	)
+	(pad "12" smd rect
+		(at 1.2 -0.8 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2209f27f-a6bc-4f72-a31e-fb2d479ac07f")
+	)
+	(pad "13" smd rect
+		(at 1.2 -1.6 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b04106f2-e4d2-4b5d-84f3-6ae78a1b1388")
+	)
+	(pad "14" smd rect
+		(at 1.2 -2.4 90)
+		(size 0.35 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2d11de73-237b-4954-80ca-5a98694270d8")
+	)
+	(model "MAX30101EFD+T.stp"
+		(offset
+			(xyz 0 0 0.2300000007)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

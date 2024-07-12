@@ -1,0 +1,257 @@
+(footprint "RSE0008A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RSE0008A")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at -0.34713 -0.07155 0)
+		(layer "F.SilkS")
+		(uuid "edeb5997-a611-48e3-ae3e-460bd733554a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "REF3325AIRSER"
+		(at -0.34713 -0.07155 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ca29d7e3-2feb-468f-b780-aa73fe157901")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "REF3325AIRSER:RSE0008A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f96384a5-a371-4c7e-862c-aff823313613")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "Datasheet/ref3325.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2838c878-6bcf-4a40-95a7-418c78eaeac1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "30ppm/C Drift, 3.9A, SOT23-3, SC70-3, UQFN-8 Voltage Reference"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01a67ccf-8c1a-44ad-ab22-6b004587d2ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "281845cf-c74a-4b9f-98bd-e594d006e5e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-REF3325AIRSER"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "220dd66b-e7fe-406b-af48-aa65c2d7b2c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF3325AIRSER?qs=S0GpHP26UDL34gxAmn%252B7lQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0f25de9-bb83-4b43-8f7c-a2eb1fd4e043")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd97e901-d2a0-4252-ac32-42acb3c0cf48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "REF3325AIRSER"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3602b76c-8dd9-48d5-a263-32ad3a4cb6e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.197 -0.512)
+		(end -1.197 -0.476)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4845c113-1ad0-47a7-ad7a-8beed2f13a84")
+	)
+	(fp_line
+		(start -0.75 -0.75)
+		(end 0.75 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5a34749-45f4-448b-a78d-e51247a0f674")
+	)
+	(fp_line
+		(start -0.75 0.75)
+		(end -0.75 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16bcdd87-ddfd-4490-843b-897b72d10399")
+	)
+	(fp_line
+		(start 0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07ec1388-f2d1-4f35-9769-3d1aa58542d9")
+	)
+	(fp_line
+		(start 0.75 0.75)
+		(end -0.75 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43449e4b-f81b-4fd5-a801-092995937526")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.34713 -0.07155 0)
+		(layer "F.Fab")
+		(uuid "3258abde-1cdc-45b3-b06f-d1eb2ef9f165")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 -0.5 90)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3b9fcad3-afce-432a-ade9-a2756af7307d")
+	)
+	(pad "2" smd rect
+		(at -0.675 0 90)
+		(size 0.2 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b3d31a0f-2a1c-47ee-ab68-38dd796dc12b")
+	)
+	(pad "3" smd rect
+		(at -0.675 0.5 90)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "33cdfef0-8231-4c56-b732-77d6c41ec5d5")
+	)
+	(pad "4" smd rect
+		(at 0 0.65)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ff1ed896-0e71-4e08-a3bf-c5a346367db4")
+	)
+	(pad "5" smd rect
+		(at 0.675 0.5 90)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "532ac34d-6a45-4aed-9d83-54cd8e9a352e")
+	)
+	(pad "6" smd rect
+		(at 0.675 0 90)
+		(size 0.2 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "29a74f87-f899-4e2b-bc44-3abe9a39ab0b")
+	)
+	(pad "7" smd rect
+		(at 0.675 -0.5 90)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "76f2f73b-add0-4a29-8cff-5713bd7203b3")
+	)
+	(pad "8" smd rect
+		(at 0 -0.65)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "25937c56-ce16-47d2-94e1-c9b1d4b27e40")
+	)
+	(model "REF3325AIRSER.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

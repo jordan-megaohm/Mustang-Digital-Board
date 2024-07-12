@@ -1,0 +1,333 @@
+(footprint "BGA4C35P2X2_64X64X44"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "YKE0004(0.445)")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "88c3051b-3295-4f21-bbde-ef3687330364")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LP5907UVX-1.8_NOPB"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "08964502-e19d-4f51-a3b4-bceeb26dcda7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "LP5907UVX-1_8_NOPB:BGA4C35P2X2_64X64X44"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d7ab333-f7c9-491a-a1db-66e39da64c0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "Datasheet/lp5907.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1735ae20-f145-4b22-a853-2877787d2039")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "250-mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1ca6479-e88d-40ef-91a0-af68f2b39b25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.445"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "560cf6b1-9b4e-41ae-a85d-78e0d6ca2cf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "926-LP5907UVX1.8NOPB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97a810d4-2750-4462-8b47-db99f606ef9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5907UVX-18-NOPB?qs=vobMBmnAsJHTbQ1C9505Xg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4cac9f0-709b-4828-99f7-d0654505c0af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48e1c625-49a8-4c30-adec-2cb51422ee56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "LP5907UVX-1.8/NOPB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a42d21f-1bdd-4744-93ac-538290875ae2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.629 -0.175)
+		(end -0.175 -0.629)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d12417e-9d72-4e5e-add6-8080b1adae72")
+	)
+	(fp_line
+		(start -0.629 0.629)
+		(end -0.629 -0.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa85b035-77d3-4a9e-b392-02218233e269")
+	)
+	(fp_line
+		(start -0.175 -0.629)
+		(end 0.629 -0.629)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9725a6f4-4102-406f-8691-8bc8f7dd8a91")
+	)
+	(fp_line
+		(start 0.629 -0.629)
+		(end 0.629 0.629)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc60dda1-38a4-47aa-843a-ea0332e959ff")
+	)
+	(fp_line
+		(start 0.629 0.629)
+		(end -0.629 0.629)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6351f49c-6805-4378-93a6-d83683222a49")
+	)
+	(fp_circle
+		(center -0.629 -0.629)
+		(end -0.629 -0.529)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5d73ad6e-b365-4bf1-9da8-eb181cae067d")
+	)
+	(fp_line
+		(start -0.838 -0.838)
+		(end 0.837 -0.838)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ce3267c-8463-4d29-9125-f2926e27b78e")
+	)
+	(fp_line
+		(start -0.838 0.837)
+		(end -0.838 -0.838)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "999578ca-c816-45b3-93be-a85e383055e7")
+	)
+	(fp_line
+		(start 0.837 -0.838)
+		(end 0.837 0.837)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa0023a5-66e6-4bf9-bb8a-6994ddb5e583")
+	)
+	(fp_line
+		(start 0.837 0.837)
+		(end -0.838 0.837)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd4fb398-2e5d-4747-a043-a166cc8b70f5")
+	)
+	(fp_line
+		(start -0.322 -0.322)
+		(end 0.323 -0.322)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b53c5dc-a87e-439d-9f0a-3882ff254dc7")
+	)
+	(fp_line
+		(start -0.322 -0.154)
+		(end -0.153 -0.323)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ecc7de0-6621-4fff-b2f4-d6808dbb4586")
+	)
+	(fp_line
+		(start -0.322 0.323)
+		(end -0.322 -0.322)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cf6114a-0df0-4dbb-8973-a20b26e4ef1e")
+	)
+	(fp_line
+		(start 0.323 -0.322)
+		(end 0.323 0.323)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53721ac5-334e-4ef7-a02a-8e506e206eea")
+	)
+	(fp_line
+		(start 0.323 0.323)
+		(end -0.322 0.323)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a3f9388-aeaf-4547-b6e8-cd6a406f53a6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dd359ad6-db68-43ae-90d0-70efa23f2791")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.175 -0.175 90)
+		(size 0.208 0.208)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "98ea792e-ac3d-4cf8-a0c5-2722780d89cf")
+	)
+	(pad "A2" smd circle
+		(at 0.175 -0.175 90)
+		(size 0.208 0.208)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fcaf5f90-d9c7-4905-8c70-d30d99d7ad81")
+	)
+	(pad "B1" smd circle
+		(at -0.175 0.175 90)
+		(size 0.208 0.208)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "754462ac-3b4b-4d6a-989c-3bff7f76f4b4")
+	)
+	(pad "B2" smd circle
+		(at 0.175 0.175 90)
+		(size 0.208 0.208)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c9fe2203-ca65-4d21-9637-b3070c1ba893")
+	)
+	(model "LP5907UVX-1.8_NOPB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

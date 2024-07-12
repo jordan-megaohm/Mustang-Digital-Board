@@ -1,0 +1,361 @@
+(footprint "INMP510ACEZR7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "INMP510ACEZ-R7-2")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at -0.313 0 0)
+		(layer "F.SilkS")
+		(uuid "9dfba7f4-e579-498f-8370-61242399aa7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "INMP510ACEZ-R7"
+		(at -0.313 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "55c1f476-af9a-4774-b4b5-819b759996d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "INMP510ACEZ-R7:INMP510ACEZR7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e85ec50-9ceb-44ed-a2df-1ea0e90b5ca7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "Datasheet/602341.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fd247c5-cae0-4d99-9c90-a2503027735f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mic Omni-Directional -38dB Rectangle Solder Pad"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71d41941-8d97-4233-bdce-0daccfe3b03e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.08"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3c296c8-bea4-488d-b55e-da6720c28685")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "410-INMP510ACEZ-R7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b468378-7947-40ac-bbc7-9e1373459908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/INMP510ACEZ-R7?qs=u4fy%2FsgLU9NyqqhCf3KJag%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6202564c-c1bb-4d7d-9d9a-77e8d23a79a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "TDK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d27605d-199b-4e3e-8ee3-b042928e5c42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "INMP510ACEZ-R7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70bdeaad-35d8-4df8-a2b1-7055e86b62da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.3 -0.7)
+		(end -2.3 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "646782f7-d7cd-46a8-80c4-d62efbc3b3f0")
+	)
+	(fp_line
+		(start -2.3 -0.7)
+		(end -2.3 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94570416-b25f-4079-a785-c4fe98b0003f")
+	)
+	(fp_line
+		(start -2.2 -0.7)
+		(end -2.2 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7800bdca-7b36-4add-8456-de00c31258d3")
+	)
+	(fp_line
+		(start -1.675 -1.25)
+		(end -1.675 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44dde8eb-24fc-475b-8034-a80736cee937")
+	)
+	(fp_line
+		(start -1.675 1.25)
+		(end 1.675 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af3dde9f-3a17-4900-83d5-daa7436b888f")
+	)
+	(fp_line
+		(start 1.675 -1.25)
+		(end -1.675 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41500795-d2e2-439f-83b5-b5cce58ae28b")
+	)
+	(fp_line
+		(start 1.675 1.25)
+		(end 1.675 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a86ca95c-c10d-4131-882f-29e79cc2be8e")
+	)
+	(fp_arc
+		(start -2.3 -0.7)
+		(mid -2.25 -0.75)
+		(end -2.2 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12941edc-1417-4fe4-9455-04bba5f63f32")
+	)
+	(fp_arc
+		(start -2.2 -0.7)
+		(mid -2.25 -0.65)
+		(end -2.3 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c8141d0-0df5-4b17-bc69-b9d281a7be6e")
+	)
+	(fp_arc
+		(start -2.2 -0.7)
+		(mid -2.25 -0.65)
+		(end -2.3 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60a8f5c2-13c8-4439-a4dc-895e8326aee6")
+	)
+	(fp_line
+		(start -3.3 -2.25)
+		(end -3.3 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0db0597c-260b-485f-a3a3-40a5ec419782")
+	)
+	(fp_line
+		(start -3.3 2.25)
+		(end 2.675 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25215c1b-eec3-4bad-959b-983d6db7aa4e")
+	)
+	(fp_line
+		(start 2.675 -2.25)
+		(end -3.3 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8136f37d-f93e-4a80-b5d1-c197f3af3509")
+	)
+	(fp_line
+		(start 2.675 2.25)
+		(end 2.675 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b878e69-0ee7-409e-a4c6-b83d259ba7b8")
+	)
+	(fp_line
+		(start -1.675 -1.25)
+		(end 1.675 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e0a844a-c126-4aae-b506-f155ec89b528")
+	)
+	(fp_line
+		(start -1.675 1.25)
+		(end -1.675 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa5359ae-fc43-4d9b-8b1c-07f0c701518d")
+	)
+	(fp_line
+		(start 1.675 -1.25)
+		(end 1.675 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58fc7105-02d9-4654-9a06-82212dd25807")
+	)
+	(fp_line
+		(start 1.675 1.25)
+		(end -1.675 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e46533a1-9f52-4b73-95e0-c4ef56965fe5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.313 0 0)
+		(layer "F.Fab")
+		(uuid "89be30cc-cd07-4c1c-99d1-b329e52d30e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.925 -0.61 90)
+		(size 0.68 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "77f77d0c-aa8f-4c3d-8c2a-ab8ee8030128")
+	)
+	(pad "2" smd rect
+		(at -0.925 0.61 90)
+		(size 0.68 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4ffd9e31-5599-4801-b396-93f38cce5f37")
+	)
+	(pad "3" thru_hole circle
+		(at 0.595 0)
+		(size 1.55 1.55)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1e18fbb-88e3-4850-99cf-512b7a205536")
+	)
+	(model "INMP510ACEZ-R7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

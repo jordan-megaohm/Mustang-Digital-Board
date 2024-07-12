@@ -1,0 +1,336 @@
+(footprint "VMM1627LR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "VMM-1627L-R-1")
+	(tags "Loudspeaker or Buzzer")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2824f7f6-7b0d-49a0-a32d-ecdbfdc8028a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "VMM-1627L-R"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8456cd83-c57f-45d1-bd26-142e7931475e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "VMM-1627L-R:VMM1627LR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b36b814-9c41-41de-a55e-4284e6b92051")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "Datasheet/0d3aba6b-d873-47e3-9562-36729cec779b.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff961769-aab4-44b3-9eb6-4ccb7313ac6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "100 Hz ~ 8 kHz Analog Microphone MEMS (Silicon) 1.5 V ~ 3.6 V Noise Cancelling (-31dB) Solder Pads"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd8667e5-bce6-4d6d-aa57-0e4c054da242")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.65"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d4083c1-b07b-4357-9dfe-f210f581cebc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "665-VMM-1627L-R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39198044-215e-4f0c-842e-3e9d8123640b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/PUI-Audio/VMM-1627L-R?qs=IPgv5n7u5QYRCTQCt7EDOw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de350f59-d5ad-489e-a859-97954336c663")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "PUI Audio"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "769256c0-b3a5-4e13-a536-712a1e2be867")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "VMM-1627L-R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ac53328-2241-472d-beaf-89cefd6e7842")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.325 0.2)
+		(end -1.325 -0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd47e246-651d-430c-8613-16daed0669bd")
+	)
+	(fp_line
+		(start -0.88 2.2)
+		(end -0.88 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a46663ee-4465-4984-98ad-4fb26639f95d")
+	)
+	(fp_line
+		(start -0.88 2.3)
+		(end -0.88 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35047eb2-b4bf-4f59-a8f4-df2736e199e3")
+	)
+	(fp_line
+		(start 1.325 0.2)
+		(end 1.325 -0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b68aa5ea-ac0d-4fb4-9ba9-e2bd0b47bcc7")
+	)
+	(fp_arc
+		(start -0.88 2.2)
+		(mid -0.83 2.25)
+		(end -0.88 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "118028c7-fa5f-4224-822c-a2f750d8fdcd")
+	)
+	(fp_arc
+		(start -0.88 2.3)
+		(mid -0.93 2.25)
+		(end -0.88 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf3db32d-621b-400f-8057-aca172eb01f4")
+	)
+	(fp_line
+		(start -2.325 -2.75)
+		(end -2.325 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7017fae1-6cf0-406c-bc81-06256e7c8059")
+	)
+	(fp_line
+		(start -2.325 2.75)
+		(end 2.325 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "880dcd0c-93c9-4a27-9f70-623ba343ac87")
+	)
+	(fp_line
+		(start 2.325 -2.75)
+		(end -2.325 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6ba13c5-f623-4484-a4ec-49f686aaf756")
+	)
+	(fp_line
+		(start 2.325 2.75)
+		(end 2.325 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a1bdb39-1e9c-477e-bb40-96b828798842")
+	)
+	(fp_line
+		(start -1.325 -1.75)
+		(end -1.325 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd75418c-12ad-4fea-bbf1-b669d4d7b3e7")
+	)
+	(fp_line
+		(start -1.325 1.75)
+		(end 1.325 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "990af48d-ce40-4a14-81c8-84022c95d6ae")
+	)
+	(fp_line
+		(start 1.325 -1.75)
+		(end -1.325 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc70c96d-0cf6-4841-80eb-39000af8f890")
+	)
+	(fp_line
+		(start 1.325 1.75)
+		(end 1.325 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f08e45c-d738-474c-bec1-24d1717f5f6d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "74350ff5-c011-4c05-acbe-b92de8d361c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.88 1.105)
+		(size 0.62 1.03)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d7c33819-e17f-488a-bc7f-179aa8800849")
+	)
+	(pad "2" smd rect
+		(at 0 1.105)
+		(size 0.5 1.03)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1a0e893f-0581-4a66-b918-166e22f73b50")
+	)
+	(pad "3" smd rect
+		(at 0.88 1.105)
+		(size 0.62 1.03)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d232b3ae-27d4-4ba6-9139-0fd7c5bf891d")
+	)
+	(pad "4" smd rect
+		(at 0.88 -1.105)
+		(size 0.62 1.03)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b8749cbf-7aaa-449a-a9c1-62d4a48a7e95")
+	)
+	(pad "5" smd rect
+		(at 0 -1.105)
+		(size 0.5 1.03)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "540b7a3b-1e62-416f-80b3-8dc2570b1e95")
+	)
+	(pad "6" smd rect
+		(at -0.88 -1.105)
+		(size 0.62 1.03)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f55f8eab-078e-4234-abee-20a16a8a9d11")
+	)
+	(model "VMM-1627L-R.stp"
+		(offset
+			(xyz 0 -0.09999999999 0.6399999761)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

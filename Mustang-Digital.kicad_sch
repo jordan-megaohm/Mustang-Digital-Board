@@ -1,0 +1,308 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5e27fdeb-580f-476f-92aa-43cee2f9d9cd")
+	(paper "A3")
+	(title_block
+		(title "Main Top Down")
+		(date "2024-05-15")
+		(company "Megaohm Engineering")
+		(comment 1 "Mustang Digital Board")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 147.32 241.3)
+		(end 177.8 261.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4594c13c-e3d9-44f8-a8fe-e933d476acbc)
+	)
+	(sheet
+		(at 245.11 31.75)
+		(size 110.49 88.9)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b864eb4-7fdd-4826-ad50-ccd8858e23e7")
+		(property "Sheetname" "TODO and floorplan"
+			(at 245.11 29.1334 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 245.11 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 33.02)
+		(size 97.79 87.63)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 67 255 69 1.0000)
+		)
+		(uuid "65eefc28-c8b5-4fa6-a61a-e7b5d07fd6b9")
+		(property "Sheetname" "Left Side Analog"
+			(at 43.18 31.6226 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LSA.kicad_sch"
+			(at 43.18 121.2854 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 33.02)
+		(size 95.25 87.63)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 43 77 255 1)
+		)
+		(fill
+			(color 255 42 46 1.0000)
+		)
+		(uuid "89f8103a-027c-44f1-92c1-d28b798fdf3e")
+		(property "Sheetname" "Right Side Analog"
+			(at 144.78 31.6226 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RSA.kicad_sch"
+			(at 144.78 121.2854 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 234.95)
+		(size 54.61 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9adc2287-bc19-4a52-aeb3-6d45bc333b9b")
+		(property "Sheetname" "MCU"
+			(at 45.72 234.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 45.72 263.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 137.16)
+		(size 97.79 83.82)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 255 255 163 1.0000)
+		)
+		(uuid "e0faf2cf-7881-4f25-8c42-ab52e9720230")
+		(property "Sheetname" "Charging_Isolation"
+			(at 43.18 135.7626 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Charging.kicad_sch"
+			(at 43.18 221.6154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 137.16)
+		(size 95.25 82.55)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 58 255 251 1.0000)
+		)
+		(uuid "e93daaff-e99d-4046-a8a7-44cd49cf1609")
+		(property "Sheetname" "LEDS_BUTTONS_SWITCHES"
+			(at 144.78 135.8134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SWITCHES.kicad_sch"
+			(at 144.78 220.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 245.11 137.16)
+		(size 111.76 82.55)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 231 74 255 1.0000)
+		)
+		(uuid "ff4856f5-c17a-4d31-b8db-b077bf3936d8")
+		(property "Sheetname" "BT"
+			(at 245.11 135.8134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BT_SoC.kicad_sch"
+			(at 245.11 220.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

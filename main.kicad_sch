@@ -1,0 +1,184 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e9b997f7-a3fc-4c51-b591-2357157a0557")
+	(paper "A4")
+	(lib_symbols)
+	(text "TODO"
+		(exclude_from_sim no)
+		(at 34.544 31.242 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "00cec6d6-fc10-41c3-b60b-7baed1fb210b")
+	)
+	(text "LED driver\n"
+		(exclude_from_sim no)
+		(at 43.942 128.016 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "05bbc10c-b460-403c-9874-feeacb990a65")
+	)
+	(text "WAITING FOR NEURABLE\n"
+		(exclude_from_sim no)
+		(at 229.362 30.226 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "0fb7a6e1-cc99-415a-ab96-12ec312b2e10")
+	)
+	(text "SHEET"
+		(exclude_from_sim no)
+		(at 196.342 40.386 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(italic yes)
+			)
+		)
+		(uuid "1a5b774a-459b-42c0-b2ba-d9a1755aaadc")
+	)
+	(text "Buttons - switch both to PTS64\n"
+		(exclude_from_sim no)
+		(at 33.528 116.84 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "2bd0d6c0-2102-4f5e-b1ca-3382d89c1622")
+	)
+	(text "LED SHEET (Jordan)"
+		(exclude_from_sim no)
+		(at 62.992 105.664 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "39104c55-e945-490b-ad86-8c9b5650e666")
+	)
+	(text "Charging components (BQ25303J)\n"
+		(exclude_from_sim no)
+		(at 90.932 59.69 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "3f57940a-8f57-4040-bff3-fdcd510d216c")
+	)
+	(text "QSPI\n"
+		(exclude_from_sim no)
+		(at 193.548 50.038 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "64df4590-185d-4e1e-85a2-b67e7850ffe1")
+	)
+	(text "MISC SHEET (Jordan)\n"
+		(exclude_from_sim no)
+		(at 64.77 140.716 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "6befd825-4b53-4e34-b593-8440836adf01")
+	)
+	(text "Buttons\n"
+		(exclude_from_sim no)
+		(at 38.354 91.948 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "9cfcab9d-ad8b-4728-ab66-474ff5a83345")
+	)
+	(text "Mixer IC for mics and amplifier???\n"
+		(exclude_from_sim no)
+		(at 91.948 162.814 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "9d0eb69d-5a23-4c01-8689-d889fa35ee76")
+	)
+	(text "LDOs for MCU\n"
+		(exclude_from_sim no)
+		(at 51.054 152.146 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "b1866fd7-65bc-41a9-8f12-d67c548c61f8")
+	)
+	(text "Isolation for power supply\n"
+		(exclude_from_sim no)
+		(at 76.2 69.596 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "c88a179f-d1f1-436d-b88a-1c93851e661c")
+	)
+	(text "POWER SHEET (Ryan)"
+		(exclude_from_sim no)
+		(at 65.786 50.292 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "ddf709e7-94f8-4971-bede-e69a3bc2d5eb")
+	)
+	(text "Buttons SHEET (Jordan)"
+		(exclude_from_sim no)
+		(at 70.358 81.534 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "e1c033a5-cdb5-4a3f-bac2-62a8ac5020b7")
+	)
+	(text "Create footprint MCU\n"
+		(exclude_from_sim no)
+		(at 225.552 59.69 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "f439dae1-dc62-4d5f-8545-b552772dc86e")
+	)
+)

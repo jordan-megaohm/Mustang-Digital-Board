@@ -1,0 +1,293 @@
+(footprint "KC2016Z204800C1KX00"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "KC2016Z2.04800C1KX00-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "6518aeb0-939d-41da-b4f6-8b4bef26e5a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "KC2016Z2.04800C1KX00"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5dd9e8f3-6ce8-4b1e-aeaa-3dac35351967")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "KC2016Z2_04800C1KX00:KC2016Z204800C1KX00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0561102e-31f5-4fcd-a3af-228c47ecabc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "Datasheet/clock_z_xz_e-1771825.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c9e8f45-b635-48bd-ad21-38c3e33d1974")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CLOCK OSCILLATOR,2.0X1.6X0.8MM S"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6080bee5-cd70-496b-b93a-d513fb7cd479")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29306506-4ffc-43d6-ac22-ed01ec1f6314")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "346-2016Z2.048C1KX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64c05fe0-b4dd-4bea-b97a-e7458ab7e450")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-Electronic-Components/KC2016Z204800C1KX00?qs=vHuUswq2%252BsyYy5d3Vm3JaA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "003e65bf-c683-484a-bb3a-49bc175753c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Kyocera AVX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94dc971e-6f4d-4daa-ae31-a1166ce3bea3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "KC2016Z2.04800C1KX00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb3cd164-fe38-4621-bf88-b1e0bd5917ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 1.4)
+		(end -1 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca2eb1f6-5112-4a33-af4b-48705cacb00a")
+	)
+	(fp_line
+		(start -0.8 1.4)
+		(end -0.8 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afefc43b-fa15-4a1a-81e2-83ab514a63b1")
+	)
+	(fp_arc
+		(start -1 1.4)
+		(mid -0.9 1.3)
+		(end -0.8 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a79aa06d-3da6-4c70-be28-82177a431da8")
+	)
+	(fp_arc
+		(start -0.8 1.4)
+		(mid -0.9 1.5)
+		(end -1 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "441e2402-e385-4258-a357-a0257db7558e")
+	)
+	(fp_line
+		(start -2.2 -2)
+		(end 2.2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1de8ced9-7850-4946-afc7-312e72475a5a")
+	)
+	(fp_line
+		(start -2.2 2)
+		(end -2.2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c12a1c69-9e8b-4cc7-a5ab-380735de54db")
+	)
+	(fp_line
+		(start 2.2 -2)
+		(end 2.2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "772d9c35-aa1c-4698-9f65-5c161969569b")
+	)
+	(fp_line
+		(start 2.2 2)
+		(end -2.2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e68af2ae-a61f-40d1-8c34-f55ff5297531")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b81e12c6-c4a3-4400-950b-eb1d8a8bdfb1")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72e5023c-85bf-4d01-a2f5-2d71361ab755")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abbcc025-28b4-4ebf-8531-5b70f1ec4407")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1093af1e-e7c8-4650-ab35-66efdc55afd1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5d31ed75-f295-4d31-8316-f64cc56a4759")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0.6)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "98b74340-7f67-417d-8b88-131482fa37d4")
+	)
+	(pad "2" smd rect
+		(at 0.9 0.6)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d87a1a71-6614-41f7-9847-5fede3d4fec7")
+	)
+	(pad "3" smd rect
+		(at 0.9 -0.6)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1a0e4d76-6742-478b-87f0-e41f8b1cb422")
+	)
+	(pad "4" smd rect
+		(at -0.9 -0.6)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aed5eafd-6d38-4f76-9931-5de6da79e529")
+	)
+)

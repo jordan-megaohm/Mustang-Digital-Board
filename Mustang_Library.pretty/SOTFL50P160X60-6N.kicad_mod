@@ -1,0 +1,347 @@
+(footprint "SOTFL50P160X60-6N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DRL0006A")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "378cd76c-c466-4536-a5f3-20623340b77f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TPD4E1B06DRLR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b9f0228c-76af-445e-94dd-28a557a39f61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "Mustang_Library:SOTFL50P160X60-6N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "743c633d-e620-4259-940e-e423fd6f123f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df97948f-19a8-44ce-a3a6-c30f43b9c2cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Bidirectional Quad-Channel High-Speed ESD Protection Device"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aacff417-9830-45b4-9fe3-02b3c6e51fd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "933e129c-2872-4fc7-b374-98eb33b87146")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TPD4E1B06DRLR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6c85e29-e184-4db7-902e-ab1e4ae5d7b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E1B06DRLR?qs=1MXlzafEN387aRSX0e2MEQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15703e28-7dac-48f8-9168-64d1a4fb2dec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c770729d-1a44-4ee9-bde9-c121b1b0de2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPD4E1B06DRLR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1ead5cd-ff5e-403a-9069-1247cdefe5c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8b15246-d7b5-49d7-b08e-1d448deb539c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.075 -0.9)
+		(end -0.6 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c74fedd1-f470-4b41-84db-2706a983b749")
+	)
+	(fp_line
+		(start -0.25 -0.8)
+		(end 0.25 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a13daf46-93fb-4619-aebe-f4c18e116104")
+	)
+	(fp_line
+		(start -0.25 0.8)
+		(end -0.25 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a4f0d31-5ab1-443e-b408-a5e7b6a70bfa")
+	)
+	(fp_line
+		(start 0.25 -0.8)
+		(end 0.25 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1609e0e-2631-4698-81db-1466658954a1")
+	)
+	(fp_line
+		(start 0.25 0.8)
+		(end -0.25 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79ba2c3e-7149-4ee1-8590-f3784d70d373")
+	)
+	(fp_line
+		(start -1.225 -1)
+		(end 1.225 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "efc8aaa5-3ab5-49b4-aae9-d0d24ebec060")
+	)
+	(fp_line
+		(start -1.225 1)
+		(end -1.225 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "edde4cd4-7124-4763-9334-d9c63dd3bedd")
+	)
+	(fp_line
+		(start 1.225 -1)
+		(end 1.225 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05510225-4f58-4efc-9c1f-92ed32f51c67")
+	)
+	(fp_line
+		(start 1.225 1)
+		(end -1.225 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db98a13f-cc17-42be-9535-f0c73abfc27c")
+	)
+	(fp_line
+		(start -0.6 -0.8)
+		(end 0.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49573f92-3977-431d-a893-beef70981ee7")
+	)
+	(fp_line
+		(start -0.6 -0.3)
+		(end -0.1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd9ecc02-c3e9-4d5b-bd68-2efe67e415ce")
+	)
+	(fp_line
+		(start -0.6 0.8)
+		(end -0.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3333d318-d5ef-4906-8fbc-b0c653e32427")
+	)
+	(fp_line
+		(start 0.6 -0.8)
+		(end 0.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e59f90e4-bb7a-4ed2-a185-e9540f3f63bd")
+	)
+	(fp_line
+		(start 0.6 0.8)
+		(end -0.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff89e6c9-b742-4d96-a99c-bf59e43a9f6f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "92f6b78f-110b-4157-a8d6-cb4eea98f502")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.838 -0.5 90)
+		(size 0.3 0.475)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b27deaf2-d468-40b8-8acc-3a10fb50eb34")
+	)
+	(pad "2" smd rect
+		(at -0.838 0 90)
+		(size 0.3 0.475)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "90466301-f82c-4543-a5ae-7d952f310c4a")
+	)
+	(pad "3" smd rect
+		(at -0.838 0.5 90)
+		(size 0.3 0.475)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9d58f0c0-0c7d-46fc-b1a1-2fb46a436644")
+	)
+	(pad "4" smd rect
+		(at 0.838 0.5 90)
+		(size 0.3 0.475)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "83bd3c25-c1b7-41d4-b4cf-ae0c34ab2719")
+	)
+	(pad "5" smd rect
+		(at 0.838 0 90)
+		(size 0.3 0.475)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "af299f16-55f3-4f5c-ad7f-7313ac617923")
+	)
+	(pad "6" smd rect
+		(at 0.838 -0.5 90)
+		(size 0.3 0.475)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fdb84981-d7a2-412e-b4f1-1746b1561940")
+	)
+	(model "TPD4E1B06DRLR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

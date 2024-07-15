@@ -10638,7 +10638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPU03L-05_MWU"
+		(property "Footprint" "Mustang_Library:SPU03L-05_MWU"
 			(at 257.048 -51.816 0)
 			(effects
 				(font
@@ -10668,6 +10668,15 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/mean-well-usa-inc/SPU03L-05/7707057"
+			(at 237.49 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SPU03L-05"
 			(at 237.49 -58.42 0)
 			(effects
 				(font
@@ -11145,6 +11154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "BQ24296RGER"
+			(at 410.21 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "22"
 			(uuid "649cdc76-e1de-4d6c-86f8-15a03473bb72")
 		)
@@ -11262,7 +11280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPU03L-05_MWU"
+		(property "Footprint" "Mustang_Library:SPU03L-05_MWU"
 			(at 257.048 -8.636 0)
 			(effects
 				(font
@@ -11292,6 +11310,15 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/mean-well-usa-inc/SPU03L-05/7707057"
+			(at 237.49 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SPU03L-05"
 			(at 237.49 -15.24 0)
 			(effects
 				(font
@@ -11597,7 +11624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPU03L-05_MWU"
+		(property "Footprint" "Mustang_Library:SPU03L-05_MWU"
 			(at 257.048 -30.226 0)
 			(effects
 				(font
@@ -11627,6 +11654,15 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/mean-well-usa-inc/SPU03L-05/7707057"
+			(at 237.49 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SPU03L-05"
 			(at 237.49 -36.83 0)
 			(effects
 				(font
@@ -12306,6 +12342,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ADUM4160BRWZ"
+			(at 236.22 -104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "179eee93-9536-476a-a31f-776ea0e0d7dc")
 		)
@@ -12468,7 +12513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf"
+		(property "Datasheet" "Datasheet/tpd4e1b06.pdf"
 			(at 55.88 -144.78 0)
 			(effects
 				(font
@@ -12608,7 +12653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "USB2422T-I/MJ"
+		(property "Datasheet" "Datasheet/00001726B-3443148.pdf"
 			(at 440.436 -108.712 0)
 			(effects
 				(font
@@ -12619,6 +12664,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 506.73 -92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB2422T-I/MJ"
 			(at 506.73 -92.71 0)
 			(effects
 				(font
@@ -15342,6 +15396,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "2130830005"
+			(at 119.38 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "SH4"
 			(uuid "dc663ff1-73fe-4045-bc22-a5004d4c9d44")
 		)
@@ -16584,7 +16647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf"
+		(property "Datasheet" "Datasheet/tpd4e1b06.pdf"
 			(at 53.34 -88.9 0)
 			(effects
 				(font

@@ -73,7 +73,7 @@
 			(color 67 255 69 1.0000)
 		)
 		(uuid "65eefc28-c8b5-4fa6-a61a-e7b5d07fd6b9")
-		(property "Sheetname" "Left Side Analog"
+		(property "Sheetname" "Analog Interface"
 			(at 43.18 31.6226 0)
 			(show_name yes)
 			(effects
@@ -98,49 +98,6 @@
 			(project "Mustang-Digital"
 				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 144.78 33.02)
-		(size 95.25 87.63)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 43 77 255 1)
-		)
-		(fill
-			(color 255 42 46 1.0000)
-		)
-		(uuid "89f8103a-027c-44f1-92c1-d28b798fdf3e")
-		(property "Sheetname" "Right Side Analog"
-			(at 144.78 31.6226 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 2.54 2.54)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RSA.kicad_sch"
-			(at 144.78 121.2854 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Mustang-Digital"
-				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd"
-					(page "3")
 				)
 			)
 		)

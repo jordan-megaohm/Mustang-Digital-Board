@@ -24286,7 +24286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 190.5 67.31 0)
 			(effects
 				(font
@@ -24362,7 +24362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 190.5 64.77 0)
 			(effects
 				(font
@@ -24440,7 +24440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/General_Purpose_Capacitors-3314795.pdf"
 			(at 33.02 31.75 0)
 			(effects
 				(font
@@ -24798,6 +24798,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "BM83SM1-00TB"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ee435db3-f924-4414-a4a3-fc37df72a861")
 		)
@@ -25001,7 +25010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "EAST16084BA8"
+		(property "Datasheet" "Datasheet/EAST16084BA8-3433911.pdf"
 			(at 204.47 100.33 0)
 			(effects
 				(font
@@ -25078,7 +25087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 190.5 59.69 0)
 			(effects
 				(font
@@ -25154,7 +25163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 190.5 62.23 0)
 			(effects
 				(font
@@ -25232,7 +25241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/KGM_X7R-3223212.pdf"
 			(at 40.64 31.75 0)
 			(effects
 				(font
@@ -25319,7 +25328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/cx5r_KGM-3223198.pdf"
 			(at 24.13 31.75 0)
 			(effects
 				(font
@@ -25585,7 +25594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "EAST16084BA8"
+		(property "Datasheet" "Datasheet/EAST16084BA8-3433911.pdf"
 			(at 213.36 101.6 0)
 			(effects
 				(font

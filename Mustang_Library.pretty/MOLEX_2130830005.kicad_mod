@@ -1072,18 +1072,18 @@
 		(layers "F.Cu" "F.Paste")
 		(uuid "bed7fa3b-cd17-497d-991b-94aa43ccaadc")
 	)
-	(pad "SH1" thru_hole circle
+	(pad "SH1" thru_hole oval
 		(at -4.52 -3)
-		(size 0.8 0.8)
-		(drill 0.6)
+		(size 0.8 1.35)
+		(drill oval 0.6 1.15)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "b4f8c0d8-3080-4611-aa92-0b793e3b429a")
 	)
-	(pad "SH2" thru_hole circle
+	(pad "SH2" thru_hole oval
 		(at 4.52 -3)
-		(size 0.8 0.8)
-		(drill 0.6)
+		(size 0.8 1.35)
+		(drill oval 0.6 1.15)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "a605e303-015d-44bf-a09a-93afc2b9c45c")

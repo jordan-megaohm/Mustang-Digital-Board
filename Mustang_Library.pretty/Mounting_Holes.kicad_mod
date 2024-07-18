@@ -1,0 +1,113 @@
+(footprint "Mounting_Holes"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -8.5 13.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cca572fa-08c4-4c32-b056-e5b4819b3315")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Mounting_Holes"
+		(at -8.5 14.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45e3b83e-2560-41e7-8050-7263f3fb30e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1349e12-1857-47d3-aac0-801d168b206d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3800e00-5df4-4720-bb37-87a748842c5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47ff1c06-00c5-4f45-8b00-72aa00b5ef2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at -8.5 16.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9a7c832-ae12-4040-8c3f-c1c584bb7a7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 4.5 87.4)
+		(size 6.2 6.2)
+		(drill 2.6)
+		(layers "*.SilkS")
+		(uuid "6aab45ec-6269-44a4-960e-f5bd84e18e54")
+	)
+	(pad "" np_thru_hole circle
+		(at 17.5 17)
+		(size 6.2 6.2)
+		(drill 2.6)
+		(layers "*.SilkS")
+		(uuid "ad11bd66-a11b-494a-870a-8ae57db75053")
+	)
+	(pad "" np_thru_hole circle
+		(at 62.5 17)
+		(size 6.2 6.2)
+		(drill 2.6)
+		(layers "*.SilkS")
+		(uuid "66855a33-a52d-4564-8b36-b0d6250baa3a")
+	)
+	(pad "" np_thru_hole circle
+		(at 62.5 87.4)
+		(size 6.2 6.2)
+		(drill 2.6)
+		(layers "*.SilkS")
+		(uuid "80c2a626-f9fb-49d5-bfe8-dd24a74538bc")
+	)
+)

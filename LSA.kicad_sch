@@ -5,7 +5,7 @@
 	(uuid "3c5df956-da5d-4c1e-aee8-5d511d38dff8")
 	(paper "A2")
 	(lib_symbols
-		(symbol "685119248123:685119248123"
+		(symbol "Mustang_Library:685119248123"
 			(pin_names
 				(offset 1.016)
 			)
@@ -22,12 +22,13 @@
 				)
 			)
 			(property "Value" "685119248123"
-				(at 0 -38.1 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "685119248123:685119248123"
@@ -59,16 +60,6 @@
 				)
 			)
 			(property "MOUNT" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VALUE" "685119248123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -928,7 +919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "685119248123:685119248123")
+		(lib_id "Mustang_Library:685119248123")
 		(at 176.53 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1152,7 +1143,7 @@
 		)
 	)
 	(symbol
-		(lib_id "685119248123:685119248123")
+		(lib_id "Mustang_Library:685119248123")
 		(at 179.07 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)

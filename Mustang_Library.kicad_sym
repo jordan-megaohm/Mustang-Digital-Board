@@ -1427,7 +1427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "685119248123:685119248123"
+		(property "Footprint" "Mustang_Library:685119248123"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1537,8 +1537,8 @@
 		)
 		(symbol "685119248123_0_0"
 			(rectangle
-				(start -15.1249 -35.1338)
-				(end 19.1651 27.0962)
+				(start -15.1249 27.0962)
+				(end 19.1651 -38.1)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2114,10 +2114,12 @@
 					)
 				)
 			)
+		)
+		(symbol "685119248123_1_0"
 			(pin passive line
 				(at -20.32 -30.48 0)
 				(length 5.08)
-				(name "SHIELD__1"
+				(name "SHIELD"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2135,7 +2137,7 @@
 			(pin passive line
 				(at -20.32 -33.02 0)
 				(length 5.08)
-				(name "SHIELD__2"
+				(name "SHIELD"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2153,7 +2155,7 @@
 			(pin passive line
 				(at -20.32 -35.56 0)
 				(length 5.08)
-				(name "SHIELD__3"
+				(name "SHIELD"
 					(effects
 						(font
 							(size 1.016 1.016)

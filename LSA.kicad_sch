@@ -31,7 +31,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "685119248123:685119248123"
+			(property "Footprint" "Mustang_Library:685119248123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -141,8 +141,8 @@
 			)
 			(symbol "685119248123_0_0"
 				(rectangle
-					(start -15.1249 -35.1338)
-					(end 19.1651 27.0962)
+					(start -15.1249 27.0962)
+					(end 19.1651 -38.1)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -718,10 +718,12 @@
 						)
 					)
 				)
+			)
+			(symbol "685119248123_1_0"
 				(pin passive line
 					(at -20.32 -30.48 0)
 					(length 5.08)
-					(name "SHIELD__1"
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -739,7 +741,7 @@
 				(pin passive line
 					(at -20.32 -33.02 0)
 					(length 5.08)
-					(name "SHIELD__2"
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -757,7 +759,7 @@
 				(pin passive line
 					(at -20.32 -35.56 0)
 					(length 5.08)
-					(name "SHIELD__3"
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -774,6 +776,445 @@
 				)
 			)
 		)
+		(symbol "Mustang_Library:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mustang_Library:GNDD"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 153.67 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08a71971-10f8-4924-97d6-3b697301f5b6")
+	)
+	(junction
+		(at 151.13 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69095458-5106-486e-9ff7-3e17eec05ab1")
+	)
+	(junction
+		(at 151.13 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "811630cc-c4f3-446b-8863-b8c64a9bd630")
+	)
+	(junction
+		(at 153.67 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b778c8c6-848e-4f5c-bdcb-a5374c4481fa")
+	)
+	(junction
+		(at 153.67 262.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4a9a429-c1ad-4837-9f8f-30a0b7db9a80")
+	)
+	(junction
+		(at 151.13 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc2c33d7-59f3-4bf2-99e1-388a43b6286a")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 156.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eaf72c2-fc93-481d-a9b4-533c036d8971")
+	)
+	(wire
+		(pts
+			(xy 153.67 262.89) (xy 153.67 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24732587-e1ba-4786-aee9-5888067a4f96")
+	)
+	(wire
+		(pts
+			(xy 153.67 260.35) (xy 153.67 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f481cd-310e-4839-aca2-7b61700cc63f")
+	)
+	(wire
+		(pts
+			(xy 153.67 265.43) (xy 153.67 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3668c21a-69e1-4a1a-b794-eaf88433ff0b")
+	)
+	(wire
+		(pts
+			(xy 153.67 267.97) (xy 153.67 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437bce08-5e91-45e6-a738-77a90246b3f5")
+	)
+	(wire
+		(pts
+			(xy 114.3 309.88) (xy 114.3 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee0045f-a2ef-4f1b-a592-86eed1bac93a")
+	)
+	(wire
+		(pts
+			(xy 156.21 165.1) (xy 151.13 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d490edd-ce23-49fe-8353-8229dfbfed3f")
+	)
+	(wire
+		(pts
+			(xy 153.67 267.97) (xy 158.75 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb3fc51-e568-4905-bfe6-95e3aab8baf0")
+	)
+	(wire
+		(pts
+			(xy 158.75 260.35) (xy 153.67 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd865a7-5beb-46df-aac5-4fe356b6f36d")
+	)
+	(wire
+		(pts
+			(xy 151.13 167.64) (xy 156.21 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ed5602-2410-4539-89fd-3e953b468ca8")
+	)
+	(wire
+		(pts
+			(xy 102.87 306.07) (xy 102.87 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d02e2a0-0f5f-4b0c-9f92-82606a795f1a")
+	)
+	(wire
+		(pts
+			(xy 151.13 172.72) (xy 156.21 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86be5cb9-9bec-4a38-8565-04abdb3d73f6")
+	)
+	(wire
+		(pts
+			(xy 151.13 167.64) (xy 151.13 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3c4433-e390-4292-94f0-6dfa2df69c72")
+	)
+	(wire
+		(pts
+			(xy 151.13 165.1) (xy 151.13 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b477ab7d-c0d4-429f-ae1c-86685f21b8e6")
+	)
+	(wire
+		(pts
+			(xy 153.67 265.43) (xy 158.75 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60803c9-35ce-4558-8273-fd3c5cc77351")
+	)
+	(wire
+		(pts
+			(xy 151.13 170.18) (xy 156.21 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf32b4de-411a-488f-aef7-660f5e2d3843")
+	)
+	(wire
+		(pts
+			(xy 151.13 172.72) (xy 151.13 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce596f73-ee67-47d1-b36d-ab527327383d")
+	)
+	(wire
+		(pts
+			(xy 151.13 170.18) (xy 151.13 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f9f180-b75d-4b2e-9b61-50d07113a0df")
+	)
+	(wire
+		(pts
+			(xy 114.3 306.07) (xy 102.87 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f254a69c-db31-42b8-8bbe-a6415ac51041")
+	)
+	(wire
+		(pts
+			(xy 153.67 262.89) (xy 158.75 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb9c467-451a-4e92-aa0d-1e5ff86f13d9")
 	)
 	(rectangle
 		(start 254 74.93)
@@ -916,6 +1357,73 @@
 			"FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU"
 			"UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR"
 			"QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k="
+		)
+	)
+	(symbol
+		(lib_id "Mustang_Library:GNDD")
+		(at 102.87 309.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2039d6a8-e594-4c8f-9c90-a75d019fa419")
+		(property "Reference" "#PWR07"
+			(at 102.87 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 102.87 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 102.87 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "deb01ac7-9825-4770-bcb0-99c8bbb86efc")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/65eefc28-c8b5-4fa6-a61a-e7b5d07fd6b9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1361,6 +1869,204 @@
 			(project "Mustang-Digital"
 				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/65eefc28-c8b5-4fa6-a61a-e7b5d07fd6b9"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mustang_Library:GND")
+		(at 151.13 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa568e01-033f-40f5-9fc1-f32b815e90b8")
+		(property "Reference" "#PWR05"
+			(at 151.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8337e5d0-6d1e-4735-856f-c8d78e27db46")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/65eefc28-c8b5-4fa6-a61a-e7b5d07fd6b9"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mustang_Library:GND")
+		(at 153.67 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c11de60d-c9c0-40ac-9e9c-ab6918021d07")
+		(property "Reference" "#PWR06"
+			(at 153.67 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6999be30-2aaf-466b-8725-d2ff82f5857e")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/65eefc28-c8b5-4fa6-a61a-e7b5d07fd6b9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mustang_Library:GND")
+		(at 114.3 309.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db7cd966-a30c-4db8-872d-ace76134313b")
+		(property "Reference" "#PWR08"
+			(at 114.3 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa73c6a7-9f93-482c-a114-b6944b968fb2")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/65eefc28-c8b5-4fa6-a61a-e7b5d07fd6b9"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "microSD_XC_CUI_MSD4-1-A"
-		(at 0 -19.725 0)
+		(at 0 -20 0)
 		(layer "F.Fab")
 		(uuid "be25eb87-0c39-45fa-a6fa-b2efbf8e4f5d")
 		(effects
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" "Datasheet/msd4-1-a.pdf"
-		(at 0 -17.725 0)
+		(at 0 -18 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -53,8 +53,8 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "micro-SD CUI MSD4-1-A"
+		(at 0 -22 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -229,7 +229,7 @@
 		(uuid "e4bd173c-dcf7-4035-824c-4ce51907b08f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.075 -15.725 0)
+		(at -0.075 -16 0)
 		(layer "F.Fab")
 		(uuid "ad8ea1e9-2e08-4275-a52e-0bdf5db749dd")
 		(effects
@@ -307,36 +307,48 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "096cb583-8ee1-4a05-92c4-21bb7f8d8e92")
 	)
-	(pad "10" thru_hole oval
+	(pad "10" thru_hole roundrect
 		(at -6.8 -9.4)
-		(size 1.1 1.9)
-		(drill oval 0.4 1.2)
+		(size 1.3 1.9)
+		(drill oval 0.4 1.2
+			(offset -0.1 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
 		(uuid "0d71c0d7-8dee-4f35-89f4-e1c13bc0ab68")
 	)
-	(pad "11" thru_hole oval
+	(pad "11" thru_hole roundrect
 		(at 6.8 -9.4)
-		(size 1.1 1.9)
-		(drill oval 0.4 1.2)
+		(size 1.3 1.9)
+		(drill oval 0.4 1.2
+			(offset 0.1 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
 		(uuid "d3714aff-59a9-431c-943d-e325af9d8caf")
 	)
-	(pad "12" thru_hole oval
+	(pad "12" thru_hole roundrect
 		(at 6.8 0)
-		(size 1.1 1.9)
-		(drill oval 0.4 1.2)
+		(size 1.3 1.9)
+		(drill oval 0.4 1.2
+			(offset 0.1 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
 		(uuid "a9634899-5e18-45e9-951e-70e0b455d325")
 	)
-	(pad "13" thru_hole oval
+	(pad "13" thru_hole roundrect
 		(at -6.8 0)
-		(size 1.1 1.9)
-		(drill oval 0.4 1.2)
+		(size 1.3 1.9)
+		(drill oval 0.4 1.2
+			(offset -0.1 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
 		(uuid "53c20ff2-aa63-40ad-81cd-de6f7d2a4326")
 	)
 	(pad "14" smd rect
@@ -511,15 +523,15 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Card.3dshapes/microSD_HC_Hirose_DM3AT-SF-PEJM5.wrl"
+	(model "${KIPRJMOD}/Models/microSD_card_socket_msd4-1-A.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 27 -14.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

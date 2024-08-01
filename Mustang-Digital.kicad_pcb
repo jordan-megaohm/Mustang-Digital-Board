@@ -45,7 +45,6 @@
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
 				(color "White")
-				(material "Direct Printing")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
@@ -109,7 +108,6 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 				(color "White")
-				(material "Direct Printing")
 			)
 			(copper_finish "ENIG")
 			(dielectric_constraints no)
@@ -1696,7 +1694,7 @@
 			(uuid "9e77c0fa-25f5-4c2b-8158-85cf6b54f767")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ead9e51b-082d-4d6d-ba91-8ad8ddf4db7f")
 			(effects
@@ -6816,7 +6814,7 @@
 			(uuid "8f8057b0-3b73-4db1-be6f-2e1b42552c5a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "13240467-29ba-49be-8c76-621a2dbee9d1")
 			(effects
@@ -17185,7 +17183,7 @@
 			(size 6.2 6.2)
 			(drill 2.6)
 			(layers "*.SilkS")
-			(uuid "f965d19e-fe5b-4bff-9def-536c654340bf")
+			(uuid "cae338e8-d8d6-4c3e-946e-ad8429992252")
 		)
 	)
 	(footprint "Mustang_Library:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
@@ -35198,7 +35196,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "72691562-241a-4229-8b77-b5b478eaee7b")
 			(effects

@@ -2207,6 +2207,22 @@
 		(uuid "129021f0-e6ae-4f78-a3cd-d58e578ed353")
 	)
 	(no_connect
+		(at 482.6 534.67)
+		(uuid "176e5868-6386-473a-b1ba-5030dc9588eb")
+	)
+	(no_connect
+		(at 443.23 547.37)
+		(uuid "3bf682e5-12a9-4a67-b1b5-ef231b31ed73")
+	)
+	(no_connect
+		(at 443.23 544.83)
+		(uuid "3d3080cc-0b7c-406b-8aa2-a8a97ea608a4")
+	)
+	(no_connect
+		(at 443.23 527.05)
+		(uuid "607a8226-ea54-4696-9b5d-1e695f0eceff")
+	)
+	(no_connect
 		(at 396.24 378.46)
 		(uuid "83a6dfce-07ed-4e10-b405-cea9e112abca")
 	)
@@ -2215,12 +2231,32 @@
 		(uuid "965cf50f-ba2e-44b6-b745-f0fff346c1e1")
 	)
 	(no_connect
+		(at 443.23 539.75)
+		(uuid "c259141f-7c5c-4277-8e2b-c55db60179b6")
+	)
+	(no_connect
+		(at 443.23 537.21)
+		(uuid "cc27766e-2a31-466e-adc9-d96b1ee1086a")
+	)
+	(no_connect
+		(at 443.23 534.67)
+		(uuid "d88685de-f994-4f9a-8b0b-45c993fee7fe")
+	)
+	(no_connect
+		(at 482.6 530.86)
+		(uuid "e02386df-d44b-4a14-a03a-4b90fa7445a9")
+	)
+	(no_connect
 		(at 378.46 397.51)
 		(uuid "e4e9d9f4-8c89-40e5-814f-f1e1e78bfe61")
 	)
 	(no_connect
 		(at 396.24 381)
 		(uuid "ec71a768-0654-43a6-b073-385c28d29a76")
+	)
+	(no_connect
+		(at 443.23 532.13)
+		(uuid "ee320942-f316-4205-a86a-8d3c4f16dcb2")
 	)
 	(wire
 		(pts
@@ -23662,6 +23698,114 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "USB_DM_BT"
+		(shape input)
+		(at 482.6 530.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "250cca59-2a6d-4b36-8c3b-52195478d9c9")
+	)
+	(hierarchical_label "SPK_AUDIO-R"
+		(shape input)
+		(at 443.23 539.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29bf5168-55f5-47f3-9856-6e0eb4d22138")
+	)
+	(hierarchical_label "TALK_MICR"
+		(shape input)
+		(at 443.23 547.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "716ca159-4ea1-469d-b04d-0908a1ca374a")
+	)
+	(hierarchical_label "TALK_MICL"
+		(shape input)
+		(at 443.23 544.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8fe4fd9-7237-43b1-8f92-a9f5576b320a")
+	)
+	(hierarchical_label "USB_DP_BT"
+		(shape input)
+		(at 482.6 534.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd2642d7-50a3-42ce-8cb4-a8e11f12baec")
+	)
+	(hierarchical_label "SPK_AUDIO+L"
+		(shape input)
+		(at 443.23 532.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e76985f0-90fa-41fb-906c-a9c6b3039d06")
+	)
+	(hierarchical_label "SPK_AUDIO+R"
+		(shape input)
+		(at 443.23 537.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3e50b52-1ef1-42cd-8df0-c5b146455280")
+	)
+	(hierarchical_label "VSYS"
+		(shape input)
+		(at 443.23 527.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6236c39-06de-4508-8c1e-a302d206ec51")
+	)
+	(hierarchical_label "SPK_AUDIO-L"
+		(shape input)
+		(at 443.23 534.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcf4c788-189b-4b72-af4c-81e2215605be")
 	)
 	(symbol
 		(lib_id "Mustang_Library:R_Small_US")

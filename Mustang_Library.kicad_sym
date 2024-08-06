@@ -4670,7 +4670,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U1"
-			(at 38.1 10.16 0)
+			(at 50.8 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4678,7 +4678,7 @@
 			)
 		)
 		(property "Value" "BM83SM1-00TB"
-			(at 38.1 7.62 0)
+			(at 50.8 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4686,7 +4686,7 @@
 			)
 		)
 		(property "Footprint" "Mustang_Library:BM83_MCH"
-			(at 38.1 12.954 0)
+			(at 50.8 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,52 +4741,15 @@
 			)
 		)
 		(symbol "BM83SM1-00TB_0_1"
-			(polyline
-				(pts
-					(xy 7.62 -68.58) (xy 68.58 -68.58)
-				)
+			(rectangle
+				(start 7.874 4.572)
+				(end 93.98 -101.6)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -68.58)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 68.58 -68.58) (xy 68.58 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 68.58 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -4807,8 +4770,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -27.94 0)
+			(pin input line
+				(at 0 -35.56 0)
 				(length 7.62)
 				(name "MICP2"
 					(effects
@@ -4825,8 +4788,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -20.32 0)
+			(pin input line
+				(at 0 -25.4 0)
 				(length 7.62)
 				(name "AIR"
 					(effects
@@ -4843,8 +4806,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -22.86 0)
+			(pin input line
+				(at 0 -27.94 0)
 				(length 7.62)
 				(name "AIL"
 					(effects
@@ -4861,8 +4824,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -30.48 0)
+			(pin input line
+				(at 0 -38.1 0)
 				(length 7.62)
 				(name "MICN1"
 					(effects
@@ -4879,8 +4842,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -33.02 0)
+			(pin input line
+				(at 0 -40.64 0)
 				(length 7.62)
 				(name "MICP1"
 					(effects
@@ -4897,8 +4860,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -35.56 0)
+			(pin power_out line
+				(at 0 -43.18 0)
 				(length 7.62)
 				(name "MICBIAS"
 					(effects
@@ -4915,8 +4878,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 76.2 -63.5 180)
+			(pin power_in line
+				(at 101.6 -93.98 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -4934,7 +4897,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -38.1 0)
+				(at 0 -48.26 0)
 				(length 7.62)
 				(name "DMIC_CLK"
 					(effects
@@ -4952,7 +4915,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -40.64 0)
+				(at 0 -50.8 0)
 				(length 7.62)
 				(name "MDIC1_R"
 					(effects
@@ -4970,7 +4933,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -43.18 0)
+				(at 0 -53.34 0)
 				(length 7.62)
 				(name "MDIC1_L"
 					(effects
@@ -5006,7 +4969,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -43.18 180)
+				(at 101.6 -63.5 180)
 				(length 7.62)
 				(name "P3_2"
 					(effects
@@ -5024,7 +4987,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -38.1 180)
+				(at 101.6 -58.42 180)
 				(length 7.62)
 				(name "P2_6"
 					(effects
@@ -5042,7 +5005,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -45.72 0)
+				(at 0 -60.96 0)
 				(length 7.62)
 				(name "ADAP_IN"
 					(effects
@@ -5060,7 +5023,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -48.26 0)
+				(at 0 -63.5 0)
 				(length 7.62)
 				(name "BAT_IN"
 					(effects
@@ -5077,26 +5040,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -50.8 0)
-				(length 7.62)
-				(name "SYS_PWR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -53.34 0)
+			(pin power_out line
+				(at 0 -71.12 0)
 				(length 7.62)
 				(name "VDD_IO"
 					(effects
@@ -5114,7 +5059,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -55.88 0)
+				(at 0 -76.2 0)
 				(length 7.62)
 				(name "PWR(MFB)"
 					(effects
@@ -5132,7 +5077,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -60.96 0)
+				(at 0 -91.44 0)
 				(length 7.62)
 				(name "SKI_AMB_DET"
 					(effects
@@ -5150,7 +5095,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -63.5 0)
+				(at 0 -93.98 0)
 				(length 7.62)
 				(name "SK2_KEY_AD"
 					(effects
@@ -5168,7 +5113,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -2.54 180)
+				(at 101.6 -2.54 180)
 				(length 7.62)
 				(name "P8_6/UART_RXD"
 					(effects
@@ -5204,7 +5149,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 0 180)
+				(at 101.6 0 180)
 				(length 7.62)
 				(name "P8_5/UART_TXD"
 					(effects
@@ -5221,26 +5166,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 76.2 -5.08 180)
-				(length 7.62)
-				(name "P3_4/UART_RTS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 76.2 -53.34 180)
+			(pin open_collector line
+				(at 0 -83.82 0)
 				(length 7.62)
 				(name "LED1"
 					(effects
@@ -5258,7 +5185,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -20.32 180)
+				(at 101.6 -35.56 180)
 				(length 7.62)
 				(name "P0_2"
 					(effects
@@ -5275,8 +5202,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 76.2 -50.8 180)
+			(pin open_collector line
+				(at 0 -86.36 0)
 				(length 7.62)
 				(name "LED2"
 					(effects
@@ -5294,7 +5221,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -27.94 180)
+				(at 101.6 -43.18 180)
 				(length 7.62)
 				(name "P0_6"
 					(effects
@@ -5312,7 +5239,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -48.26 180)
+				(at 101.6 -73.66 180)
 				(length 7.62)
 				(name "DM"
 					(effects
@@ -5330,7 +5257,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -45.72 180)
+				(at 101.6 -71.12 180)
 				(length 7.62)
 				(name "DP"
 					(effects
@@ -5348,7 +5275,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -22.86 180)
+				(at 101.6 -38.1 180)
 				(length 7.62)
 				(name "P0_3"
 					(effects
@@ -5366,7 +5293,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -40.64 180)
+				(at 101.6 -60.96 180)
 				(length 7.62)
 				(name "P2_7"
 					(effects
@@ -5402,7 +5329,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -25.4 180)
+				(at 101.6 -40.64 180)
 				(length 7.62)
 				(name "P0_5"
 					(effects
@@ -5420,7 +5347,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -33.02 180)
+				(at 101.6 -50.8 180)
 				(length 7.62)
 				(name "P1_6/PWM1"
 					(effects
@@ -5438,7 +5365,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -35.56 180)
+				(at 101.6 -55.88 180)
 				(length 7.62)
 				(name "P2_3"
 					(effects
@@ -5456,7 +5383,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -58.42 0)
+				(at 0 -78.74 0)
 				(length 7.62)
 				(name "RST_N"
 					(effects
@@ -5474,7 +5401,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -17.78 180)
+				(at 101.6 -33.02 180)
 				(length 7.62)
 				(name "P0_1"
 					(effects
@@ -5492,7 +5419,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -30.48 180)
+				(at 101.6 -45.72 180)
 				(length 7.62)
 				(name "P0_7"
 					(effects
@@ -5510,7 +5437,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -15.24 180)
+				(at 101.6 -25.4 180)
 				(length 7.62)
 				(name "P1_2/TDI_CPU/SCL"
 					(effects
@@ -5528,7 +5455,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -12.7 180)
+				(at 101.6 -22.86 180)
 				(length 7.62)
 				(name "P1_3/TCK_CPU/SDA"
 					(effects
@@ -5546,7 +5473,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -7.62 180)
+				(at 101.6 -10.16 180)
 				(length 7.62)
 				(name "P3_7/UART_CTS"
 					(effects
@@ -5564,7 +5491,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 76.2 -10.16 180)
+				(at 101.6 -15.24 180)
 				(length 7.62)
 				(name "P0_0/UART_TX_IND"
 					(effects
@@ -5599,8 +5526,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 76.2 -60.96 180)
+			(pin power_in line
+				(at 101.6 -91.44 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -5617,8 +5544,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 76.2 -55.88 180)
+			(pin power_in line
+				(at 101.6 -86.36 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -5635,8 +5562,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 76.2 -58.42 180)
+			(pin power_in line
+				(at 101.6 -88.9 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -5653,8 +5580,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -12.7 0)
+			(pin output line
+				(at 0 -15.24 0)
 				(length 7.62)
 				(name "AOHPR"
 					(effects
@@ -5672,7 +5599,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -15.24 0)
+				(at 0 -17.78 0)
 				(length 7.62)
 				(name "AOHPM"
 					(effects
@@ -5689,8 +5616,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -17.78 0)
+			(pin output line
+				(at 0 -20.32 0)
 				(length 7.62)
 				(name "AOHPL"
 					(effects
@@ -5707,8 +5634,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -25.4 0)
+			(pin input line
+				(at 0 -33.02 0)
 				(length 7.62)
 				(name "MICN2"
 					(effects
@@ -5718,6 +5645,161 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BM83SM1-00TB_1_1"
+			(text "3.2V to 4.2V/Batt or Power Rail"
+				(at 22.86 -63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "5V/Charge/USB DFU/Float"
+				(at 22.86 -60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "Aux In Detect"
+				(at 73.66 -63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "Do Not Connect"
+				(at 22.86 -71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "FF Button"
+				(at 73.66 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "LEDs or MFB only"
+				(at 22.86 -68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "Play/Pause Button"
+				(at 73.66 -35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "Rev Button"
+				(at 73.66 -38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "SYS Config"
+				(at 73.66 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "Temperature Sense 1, Battery"
+				(at 22.86 -91.44 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "Temperature Sense 2"
+				(at 22.86 -93.98 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "Vol Dwon Button"
+				(at 73.66 -40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "Vol Up Button"
+				(at 73.66 -60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(pin power_out line
+				(at 0 -68.58 0)
+				(length 7.62)
+				(name "SYS_PWR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 101.6 -7.62 180)
+				(length 7.62)
+				(name "P3_4/UART_RTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -5,6 +5,145 @@
 	(uuid "4ff84803-c586-4301-8796-fdbe113c3e2e")
 	(paper "A0")
 	(lib_symbols
+		(symbol "LP5907MFX-3.3:LP5907MFX-3.3_NOPB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 8.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LP5907MFX-3.3_NOPB"
+				(at -12.7 -11.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Mustang_Library:SOT95P280X145-5N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Datasheet/lp5907.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LP5907MFX-3.3_NOPB_0_0"
+				(rectangle
+					(start -12.7 7.62)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mustang_Library:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -4506,6 +4645,12 @@
 		(uuid "3325c7f0-8bba-4338-ba15-f37a4fa6412b")
 	)
 	(junction
+		(at 652.145 243.205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "334d41c5-0b82-42d1-916e-63987541c3f5")
+	)
+	(junction
 		(at 532.13 327.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4728,6 +4873,12 @@
 		(uuid "90514e02-bd33-4156-bf70-d1270b882aa9")
 	)
 	(junction
+		(at 659.765 243.205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d0f13b-fad0-4a5c-b937-d6f4c789cbf3")
+	)
+	(junction
 		(at 287.02 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4764,10 +4915,22 @@
 		(uuid "9d1d79a3-7fe6-4db6-8091-453965ff59c5")
 	)
 	(junction
+		(at 585.47 289.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d3dd9a5-f3ee-498f-b926-15c47e725690")
+	)
+	(junction
 		(at 220.98 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e926180-fabb-4bf6-aca4-5c60670ed1d2")
+	)
+	(junction
+		(at 717.55 240.665)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a60d8867-dce9-48a4-bd8a-2a4911c5527c")
 	)
 	(junction
 		(at 389.89 199.39)
@@ -4860,6 +5023,12 @@
 		(uuid "d20cf2ff-dfb0-47d8-abd1-9e073b2ebcf3")
 	)
 	(junction
+		(at 615.95 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e5e26b-c495-4b84-8dd5-df5432ac3bc2")
+	)
+	(junction
 		(at 553.72 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4888,6 +5057,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6619b87-f316-4023-bc76-4022556f1a41")
+	)
+	(junction
+		(at 707.39 257.175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8aa8081-e870-4d3b-8e9a-3b915b29aa17")
 	)
 	(junction
 		(at 570.23 157.48)
@@ -5097,6 +5272,26 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 250.825) (xy 707.39 250.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0796c4bf-b872-4753-9595-d686d436819b")
+	)
+	(wire
+		(pts
+			(xy 652.145 257.175) (xy 652.145 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b0badf-20c1-46ff-ace4-f8cd572093d2")
+	)
+	(wire
+		(pts
 			(xy 561.34 289.56) (xy 572.77 289.56)
 		)
 		(stroke
@@ -5194,6 +5389,16 @@
 			(type default)
 		)
 		(uuid "1192170e-47cd-48f4-b541-4f802d439482")
+	)
+	(wire
+		(pts
+			(xy 585.47 289.56) (xy 591.82 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1205f247-1ae8-443e-b2ae-36afefc4bdb8")
 	)
 	(wire
 		(pts
@@ -5457,6 +5662,16 @@
 	)
 	(wire
 		(pts
+			(xy 652.145 243.205) (xy 659.765 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21614cef-9b84-4f80-8443-06d7cca439e0")
+	)
+	(wire
+		(pts
 			(xy 147.32 74.93) (xy 218.44 74.93)
 		)
 		(stroke
@@ -5474,6 +5689,16 @@
 			(type default)
 		)
 		(uuid "227c666e-8d80-4081-89de-31df7ae80681")
+	)
+	(wire
+		(pts
+			(xy 718.82 240.665) (xy 717.55 240.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227f52fe-21fb-48cb-a8ec-3ec5f2cd6cc1")
 	)
 	(wire
 		(pts
@@ -5647,6 +5872,16 @@
 	)
 	(wire
 		(pts
+			(xy 652.145 246.38) (xy 652.145 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f422c24-fb76-42d4-9656-26997ee9fe76")
+	)
+	(wire
+		(pts
 			(xy 499.11 293.37) (xy 499.11 295.91)
 		)
 		(stroke
@@ -5654,6 +5889,16 @@
 			(type default)
 		)
 		(uuid "2f6b0b4f-963b-4b67-b288-540de408bb73")
+	)
+	(wire
+		(pts
+			(xy 624.84 243.205) (xy 652.145 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3018ee2b-253a-4d54-9b32-eae0cdcc28e5")
 	)
 	(wire
 		(pts
@@ -5714,6 +5959,16 @@
 			(type default)
 		)
 		(uuid "3268afa5-d866-4b0a-98b2-3d1524203425")
+	)
+	(wire
+		(pts
+			(xy 624.84 281.305) (xy 585.47 281.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3402b0ab-48a3-45d4-b44d-e501511b2168")
 	)
 	(wire
 		(pts
@@ -5987,6 +6242,16 @@
 	)
 	(wire
 		(pts
+			(xy 718.82 257.175) (xy 707.39 257.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497c3d3e-c3e2-4035-a027-b1c88999102e")
+	)
+	(wire
+		(pts
 			(xy 636.27 323.85) (xy 636.27 327.66)
 		)
 		(stroke
@@ -6057,6 +6322,16 @@
 	)
 	(wire
 		(pts
+			(xy 615.95 115.57) (xy 717.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5e72d9-7837-438b-8f38-4e91d81fc434")
+	)
+	(wire
+		(pts
 			(xy 302.26 144.78) (xy 314.96 144.78)
 		)
 		(stroke
@@ -6084,6 +6359,16 @@
 			(type default)
 		)
 		(uuid "4e8afaf7-080b-4d3a-9d0a-76cc76af2b80")
+	)
+	(wire
+		(pts
+			(xy 718.82 252.095) (xy 718.82 257.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcb5688-9ea0-4972-b2bd-34e923d3d3f4")
 	)
 	(wire
 		(pts
@@ -6134,6 +6419,16 @@
 			(type default)
 		)
 		(uuid "51b105d3-7a3f-4968-b59d-d9f017958b6d")
+	)
+	(wire
+		(pts
+			(xy 615.95 115.57) (xy 615.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c90044-e693-45aa-b442-782924afbfe8")
 	)
 	(wire
 		(pts
@@ -6507,6 +6802,16 @@
 	)
 	(wire
 		(pts
+			(xy 665.48 240.665) (xy 659.765 240.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de3fd22-b8a3-4943-b253-b76fe0d47157")
+	)
+	(wire
+		(pts
 			(xy 622.3 302.26) (xy 622.3 304.8)
 		)
 		(stroke
@@ -6744,6 +7049,26 @@
 			(type default)
 		)
 		(uuid "789fbbfa-b6f7-4428-8264-627036a161d7")
+	)
+	(wire
+		(pts
+			(xy 624.84 243.205) (xy 624.84 281.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78aa0d44-5991-4020-895d-5182b75db2e9")
+	)
+	(wire
+		(pts
+			(xy 665.48 243.205) (xy 659.765 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5d1d01-f027-4798-a213-e93916ab8eaa")
 	)
 	(wire
 		(pts
@@ -7157,6 +7482,16 @@
 	)
 	(wire
 		(pts
+			(xy 707.39 250.825) (xy 707.39 257.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc39760-b763-4578-8dac-08e0f83cf747")
+	)
+	(wire
+		(pts
 			(xy 151.13 162.56) (xy 158.75 162.56)
 		)
 		(stroke
@@ -7367,6 +7702,16 @@
 	)
 	(wire
 		(pts
+			(xy 718.82 244.475) (xy 718.82 240.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac101a2-312a-4119-98e3-2fec9b39b6f8")
+	)
+	(wire
+		(pts
 			(xy 590.55 127) (xy 596.9 127)
 		)
 		(stroke
@@ -7377,7 +7722,7 @@
 	)
 	(wire
 		(pts
-			(xy 615.95 104.14) (xy 615.95 154.94)
+			(xy 615.95 104.14) (xy 615.95 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7597,6 +7942,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 240.665) (xy 717.55 240.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1a2107-51b8-4816-b3ab-8d8397ea1d5b")
+	)
+	(wire
+		(pts
 			(xy 629.92 307.34) (xy 629.92 316.23)
 		)
 		(stroke
@@ -7714,6 +8069,16 @@
 			(type default)
 		)
 		(uuid "c34337a1-af98-4e8f-a405-9d8917485343")
+	)
+	(wire
+		(pts
+			(xy 659.765 240.665) (xy 659.765 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c382bd2b-6f3d-42d6-8a40-e7ac6bbadd51")
 	)
 	(wire
 		(pts
@@ -7857,6 +8222,16 @@
 	)
 	(wire
 		(pts
+			(xy 717.55 115.57) (xy 717.55 240.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cadbcb0d-84fd-4ea3-95b1-a2c033241d4a")
+	)
+	(wire
+		(pts
 			(xy 287.02 118.11) (xy 314.96 118.11)
 		)
 		(stroke
@@ -7914,6 +8289,16 @@
 			(type default)
 		)
 		(uuid "cdc862ab-437d-4f32-82e6-86c3b975b003")
+	)
+	(wire
+		(pts
+			(xy 585.47 281.305) (xy 585.47 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3c3636-cd64-48dc-8802-2d274c18d6f0")
 	)
 	(wire
 		(pts
@@ -8004,6 +8389,16 @@
 			(type default)
 		)
 		(uuid "d2f1e5d7-9404-41d1-9fee-0e7b65f18235")
+	)
+	(wire
+		(pts
+			(xy 707.39 257.175) (xy 652.145 257.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d523c9a2-e7e4-4abd-834b-c922afec18d0")
 	)
 	(wire
 		(pts
@@ -8517,7 +8912,7 @@
 	)
 	(wire
 		(pts
-			(xy 572.77 289.56) (xy 591.82 289.56)
+			(xy 572.77 289.56) (xy 585.47 289.56)
 		)
 		(stroke
 			(width 0)
@@ -12947,6 +13342,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Mustang_Library:C")
+		(at 718.82 248.285 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30442f07-0deb-4aee-953c-16419de60283")
+		(property "Reference" "C13"
+			(at 722.63 247.0149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 722.63 249.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mustang_Library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 719.7852 252.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 718.82 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 718.82 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76ba64ac-4276-4c30-a45f-2af8dcacdc49")
+		)
+		(pin "1"
+			(uuid "ed9a16d8-0ab8-4a7b-9e98-22b25ffb3ae4")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e0faf2cf-7881-4f25-8c42-ab52e9720230"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mustang_Library:L")
 		(at 556.26 285.75 0)
 		(unit 1)
@@ -14885,6 +15349,72 @@
 			(project "Mustang-Digital"
 				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e0faf2cf-7881-4f25-8c42-ab52e9720230"
 					(reference "R323")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mustang_Library:GND")
+		(at 707.39 257.175 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4a1ba8-9bcd-49ad-8f42-966b7f525190")
+		(property "Reference" "#PWR022"
+			(at 707.39 263.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 707.39 262.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 707.39 257.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 707.39 257.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 707.39 257.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13352b24-6e36-41dd-9935-233ea1ec3a10")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e0faf2cf-7881-4f25-8c42-ab52e9720230"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -17681,6 +18211,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Mustang_Library:C")
+		(at 652.145 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1723a4f-97c4-4aa1-8a16-5f9f81c73beb")
+		(property "Reference" "C12"
+			(at 655.955 248.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 655.955 251.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mustang_Library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 653.1102 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 652.145 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 652.145 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a80229d4-3df3-4ebe-a327-40a728f2515f")
+		)
+		(pin "1"
+			(uuid "24a7d3f5-4ee8-4e93-85e5-05eb15443570")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e0faf2cf-7881-4f25-8c42-ab52e9720230"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mustang_Library:GND")
 		(at 532.13 330.2 0)
 		(unit 1)
@@ -18633,6 +19232,81 @@
 			(project "Mustang-Power"
 				(path "/f058ab76-0bde-4c79-8207-3492f61b50c3"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LP5907MFX-3.3:LP5907MFX-3.3_NOPB")
+		(at 683.26 245.745 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caafab04-cb6a-4f62-9710-44545f6e8a0b")
+		(property "Reference" "U4"
+			(at 683.26 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LP5907MFX-3.3_NOPB"
+			(at 683.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:SOT95P280X145-5N"
+			(at 683.26 245.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet/lp5907.pdf"
+			(at 683.26 245.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 683.26 245.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35d5bef0-cd79-4c9d-957f-4f200c05c82c")
+		)
+		(pin "1"
+			(uuid "0d661be7-6d72-4a45-a862-702ad34708b7")
+		)
+		(pin "5"
+			(uuid "a41a0c19-0f77-4c5a-951b-7d33156ead30")
+		)
+		(pin "3"
+			(uuid "fe47659a-9334-451e-a30c-969c2a16a868")
+		)
+		(instances
+			(project ""
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e0faf2cf-7881-4f25-8c42-ab52e9720230"
+					(reference "U4")
 					(unit 1)
 				)
 			)

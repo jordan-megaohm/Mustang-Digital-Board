@@ -3,4 +3,5 @@
   (lib (name "Mustang_Library")(type "KiCad")(uri "${KIPRJMOD}/Mustang_Library.kicad_sym")(options "")(descr ""))
   (lib (name "685119248123")(type "KiCad")(uri "${KIPRJMOD}/Mustang-Library.symbol/685119248123.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_ST_STM32L4")(type "KiCad")(uri "${KIPRJMOD}/Mustang-Library.symbol/MCU_ST_STM32L4.kicad_sym")(options "")(descr ""))
+  (lib (name "LP5907MFX-3.3")(type "KiCad")(uri "${KIPRJMOD}/Mustang-Library.symbol/LP5907MFX-3.3_NOPB.kicad_sym")(options "")(descr ""))
 )

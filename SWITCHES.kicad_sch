@@ -2463,6 +2463,12 @@
 		(uuid "0ac0381e-40d6-4269-ac0d-e7181bafdce2")
 	)
 	(junction
+		(at 443.23 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20dd0a48-307d-450b-8c65-0e565b2541ab")
+	)
+	(junction
 		(at 334.01 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2473,6 +2479,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33e0f16a-9dc2-4f0c-b0ff-93a4cf55c61a")
+	)
+	(junction
+		(at 443.23 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3549832b-7d3f-4445-98ba-21e23e77e2d8")
 	)
 	(junction
 		(at 219.71 71.12)
@@ -2515,6 +2527,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f8ccbaa-d508-4548-a594-bf0f756fcb68")
+	)
+	(junction
+		(at 443.23 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "546ffd67-3931-45bf-a711-60b39561d293")
 	)
 	(junction
 		(at 233.68 81.28)
@@ -2649,6 +2667,12 @@
 		(uuid "eef540f2-17d7-4348-a07c-788da6ff9e8e")
 	)
 	(junction
+		(at 443.23 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f31a5240-11c9-4972-a535-1a5154049e78")
+	)
+	(junction
 		(at 38.1 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2690,6 +2714,16 @@
 	)
 	(wire
 		(pts
+			(xy 443.23 99.06) (xy 443.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d84adc-bd82-403e-8489-7e61f84ffbbf")
+	)
+	(wire
+		(pts
 			(xy 233.68 73.66) (xy 233.68 76.2)
 		)
 		(stroke
@@ -2717,6 +2751,16 @@
 			(type default)
 		)
 		(uuid "06e5a1cc-bed1-45af-b460-391057ef84dd")
+	)
+	(wire
+		(pts
+			(xy 447.04 99.06) (xy 443.23 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad24bed-e6ff-47dd-bce0-26d2d4322e35")
 	)
 	(wire
 		(pts
@@ -2840,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 123.19) (xy 445.77 123.19)
+			(xy 441.96 123.19) (xy 443.23 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2857,6 +2901,16 @@
 			(type default)
 		)
 		(uuid "2b49457a-a627-416a-9edd-a7be377011f2")
+	)
+	(wire
+		(pts
+			(xy 443.23 92.71) (xy 441.96 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6f6a9f-ff8e-4dbd-8e68-6ec1e3bdd99c")
 	)
 	(wire
 		(pts
@@ -2877,6 +2931,16 @@
 			(type default)
 		)
 		(uuid "2b91ea46-451d-466c-a12c-dd70bc342f7e")
+	)
+	(wire
+		(pts
+			(xy 447.04 114.3) (xy 443.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc94ebf-95ae-4245-9b2b-a3a1e650f04e")
 	)
 	(wire
 		(pts
@@ -2930,6 +2994,16 @@
 	)
 	(wire
 		(pts
+			(xy 447.04 82.55) (xy 443.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361f07b8-b4b5-4cdb-a362-0a6ff6da37af")
+	)
+	(wire
+		(pts
 			(xy 351.79 92.71) (xy 354.33 92.71)
 		)
 		(stroke
@@ -2937,6 +3011,26 @@
 			(type default)
 		)
 		(uuid "3750fbea-f980-4b11-a481-e08a810122d8")
+	)
+	(wire
+		(pts
+			(xy 458.47 99.06) (xy 454.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ace880a-bc74-467c-bd8c-d5e1a66db72d")
+	)
+	(wire
+		(pts
+			(xy 443.23 114.3) (xy 443.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba70ad6-07dd-4b4e-8798-1cc5a06ea15d")
 	)
 	(wire
 		(pts
@@ -2957,6 +3051,16 @@
 			(type default)
 		)
 		(uuid "4358c881-b32a-42bd-a17a-256fbc6df678")
+	)
+	(wire
+		(pts
+			(xy 443.23 123.19) (xy 445.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4362f9b6-f853-4a94-9a93-08e5f868b0e2")
 	)
 	(wire
 		(pts
@@ -3240,6 +3344,16 @@
 	)
 	(wire
 		(pts
+			(xy 443.23 107.95) (xy 441.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68726091-9313-453d-a8d7-b9bf9b6ed5f7")
+	)
+	(wire
+		(pts
 			(xy 219.71 152.4) (xy 209.55 152.4)
 		)
 		(stroke
@@ -3257,6 +3371,16 @@
 			(type default)
 		)
 		(uuid "6baa4da0-fb82-49e0-b21d-b31efc015ea5")
+	)
+	(wire
+		(pts
+			(xy 443.23 129.54) (xy 443.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c604e85-4b32-4908-a7ed-f06742546882")
 	)
 	(wire
 		(pts
@@ -3307,6 +3431,16 @@
 			(type default)
 		)
 		(uuid "76d5b713-ab46-47a7-ac87-d3d3559bfd05")
+	)
+	(wire
+		(pts
+			(xy 443.23 76.2) (xy 445.77 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7855704e-8503-4f49-833e-37c2e6612f85")
 	)
 	(wire
 		(pts
@@ -3470,7 +3604,7 @@
 	)
 	(wire
 		(pts
-			(xy 445.77 107.95) (xy 441.96 107.95)
+			(xy 445.77 107.95) (xy 443.23 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3517,6 +3651,16 @@
 			(type default)
 		)
 		(uuid "9197de0c-aa99-4f0a-b527-17edf8b050fc")
+	)
+	(wire
+		(pts
+			(xy 458.47 82.55) (xy 454.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9201cf0e-8903-4262-bd1c-c6e0a82ff0f9")
 	)
 	(wire
 		(pts
@@ -3620,6 +3764,16 @@
 	)
 	(wire
 		(pts
+			(xy 443.23 82.55) (xy 443.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a495c790-491a-4dd3-979b-efe740845bd0")
+	)
+	(wire
+		(pts
 			(xy 222.25 128.27) (xy 219.71 128.27)
 		)
 		(stroke
@@ -3690,6 +3844,16 @@
 	)
 	(wire
 		(pts
+			(xy 447.04 129.54) (xy 443.23 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b095a048-b6d0-48e5-ac69-98c844c18d0f")
+	)
+	(wire
+		(pts
 			(xy 229.87 62.23) (xy 229.87 71.12)
 		)
 		(stroke
@@ -3727,6 +3891,16 @@
 			(type default)
 		)
 		(uuid "b49287f8-c1d2-4542-8a78-c0925ac828ae")
+	)
+	(wire
+		(pts
+			(xy 458.47 129.54) (xy 454.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fb11bd-4e11-4653-9b72-807120815a4d")
 	)
 	(wire
 		(pts
@@ -3860,7 +4034,17 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 76.2) (xy 445.77 76.2)
+			(xy 458.47 114.3) (xy 454.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d1dc6c-96e1-44f6-a2f6-419b11d758f1")
+	)
+	(wire
+		(pts
+			(xy 441.96 76.2) (xy 443.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4030,7 +4214,7 @@
 	)
 	(wire
 		(pts
-			(xy 445.77 92.71) (xy 441.96 92.71)
+			(xy 445.77 92.71) (xy 443.23 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6485,6 +6669,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mustang_Library:GND")
+		(at 458.47 82.55 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a028aaf-6b79-45af-a76e-093fe4e5622d")
+		(property "Reference" "#PWR026"
+			(at 464.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 462.28 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 458.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7483cc1e-313b-4b4f-96c8-058bda06d21a")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mustang_Library:+3V3")
 		(at 336.55 69.85 0)
 		(unit 1)
@@ -7854,6 +8106,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mustang_Library:CAP_CERAMIC0805-NOOUTLINE")
+		(at 452.12 114.3 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4822516b-b37e-4b7c-9ab9-280e8258216e")
+		(property "Reference" "C24"
+			(at 450.87 112.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 450.87 116.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 452.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+			(at 452.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a7cdf71-26f5-4f6f-a9fd-728f6f4f3e43")
+		)
+		(pin "1"
+			(uuid "186f9a39-cbdf-49c6-8693-cf5e3a171c85")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mustang_Library:ESD7551N2T5G")
 		(at 31.75 99.06 90)
 		(unit 1)
@@ -8332,6 +8652,74 @@
 			(project "Mustang-Digital"
 				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mustang_Library:GND")
+		(at 458.47 99.06 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70669b31-681e-4631-8402-a623fba10bfc")
+		(property "Reference" "#PWR027"
+			(at 464.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 462.28 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 458.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15016016-cc94-45a3-a974-f8cc835941f3")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9107,6 +9495,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Mustang_Library:CAP_CERAMIC0805-NOOUTLINE")
+		(at 452.12 82.55 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "906e6b55-6c3b-4a8b-935f-55d67c0c8c0c")
+		(property "Reference" "C22"
+			(at 450.87 80.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 450.87 84.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 452.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+			(at 452.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12f462f5-c4fc-4e61-8e53-5144877dd2a8")
+		)
+		(pin "1"
+			(uuid "8361d83d-950a-4c19-8849-7b65dfcfee85")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mustang_Library:CAP_CERAMIC0805-NOOUTLINE")
+		(at 452.12 129.54 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "995504ea-bf00-4c70-8d1c-7e47fe9fc56e")
+		(property "Reference" "C25"
+			(at 450.87 127.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 450.87 131.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 452.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+			(at 452.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5b62eac-5a67-4542-acad-a30263e1fafe")
+		)
+		(pin "1"
+			(uuid "007d8dee-c6df-4e6c-aa6e-24dd53ad0611")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mustang_Library:C_Small")
 		(at 121.92 81.28 180)
 		(unit 1)
@@ -9458,6 +9982,74 @@
 			(project "Mustang-Digital"
 				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
 					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mustang_Library:GND")
+		(at 458.47 114.3 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1193e83-76d8-457e-b07f-5c54b8420f21")
+		(property "Reference" "#PWR028"
+			(at 464.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 462.28 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 458.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "873cca76-c15a-4980-88fa-7a13faa581b2")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10027,6 +10619,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mustang_Library:CAP_CERAMIC0805-NOOUTLINE")
+		(at 452.12 99.06 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de4fde33-483b-436a-bce6-fe5a612feae4")
+		(property "Reference" "C23"
+			(at 450.87 96.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 450.87 101.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 452.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+			(at 452.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb041541-a9ef-4a73-a580-415ef9e02af6")
+		)
+		(pin "1"
+			(uuid "52c8054e-4841-411e-a6fe-a380f1c527de")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mustang_Library:R_Small_US")
 		(at 339.09 76.2 180)
 		(unit 1)
@@ -10285,6 +10945,74 @@
 			(project "Mustang-Digital"
 				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
 					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mustang_Library:GND")
+		(at 458.47 129.54 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6b7e530-1201-477d-b7fa-54c9727229c8")
+		(property "Reference" "#PWR029"
+			(at 464.82 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 462.28 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 458.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d293141a-e5d5-45de-abc5-47e03bb65f12")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e93daaff-e99d-4046-a8a7-44cd49cf1609"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

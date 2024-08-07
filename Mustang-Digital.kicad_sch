@@ -27,6 +27,98 @@
 		(at 72.39 39.37)
 		(uuid "068810ab-9453-4b3d-940b-a3d0cc2d8669")
 	)
+	(no_connect
+		(at 300.99 175.26)
+		(uuid "0be9e79a-89e3-40d1-bcf4-2a65e6eab9e7")
+	)
+	(no_connect
+		(at 300.99 171.45)
+		(uuid "12c98d1a-f42e-4358-bae2-a8c59e5d8918")
+	)
+	(no_connect
+		(at 300.99 167.64)
+		(uuid "177eb4b1-7aae-4eaa-aa4d-5e03722ee848")
+	)
+	(no_connect
+		(at 300.99 195.58)
+		(uuid "30c400cc-84b7-4d11-8cf7-bda19699a321")
+	)
+	(no_connect
+		(at 300.99 184.15)
+		(uuid "3d3374a9-a7b7-4ffc-a757-f1e45899841c")
+	)
+	(no_connect
+		(at 300.99 191.77)
+		(uuid "43a7301c-37d2-4ee5-b929-b43113b5699b")
+	)
+	(no_connect
+		(at 300.99 214.63)
+		(uuid "44337e9f-3681-47e9-b3de-731858bdb225")
+	)
+	(no_connect
+		(at 300.99 220.98)
+		(uuid "5aa78716-1798-4db7-9ed0-e5327514e9d2")
+	)
+	(no_connect
+		(at 300.99 200.66)
+		(uuid "6c98cf35-bf44-4852-bba7-51d3ec7fa63f")
+	)
+	(no_connect
+		(at 300.99 186.69)
+		(uuid "8a499254-da84-432a-8909-3f75212333ec")
+	)
+	(no_connect
+		(at 300.99 165.1)
+		(uuid "a883eaca-3364-4a73-89ff-023ee5bdb35e")
+	)
+	(no_connect
+		(at 300.99 203.2)
+		(uuid "aede6192-9f2c-4393-9e07-1ff09b77cc8e")
+	)
+	(no_connect
+		(at 300.99 177.8)
+		(uuid "af3b314b-6313-4b24-9440-8dece0ee2254")
+	)
+	(no_connect
+		(at 300.99 198.12)
+		(uuid "b4ff5254-d3d4-4d6e-be95-aba2b9f11bfc")
+	)
+	(no_connect
+		(at 300.99 149.86)
+		(uuid "bbf30d3c-eb69-42c9-a1a6-339918a618a9")
+	)
+	(no_connect
+		(at 300.99 162.56)
+		(uuid "c31ca454-00a1-4a43-af0d-4efad87ca3c8")
+	)
+	(no_connect
+		(at 300.99 189.23)
+		(uuid "c3dc742a-b1f3-4da2-a1be-aa270263ffea")
+	)
+	(no_connect
+		(at 300.99 208.28)
+		(uuid "caeb884c-53cb-4894-9975-2c12bfa95943")
+	)
+	(no_connect
+		(at 300.99 181.61)
+		(uuid "cf2b240d-e0be-458b-853f-e9b4f05bf0e6")
+	)
+	(no_connect
+		(at 300.99 217.17)
+		(uuid "d61998eb-01d3-4c64-ad81-3397206e2d8b")
+	)
+	(no_connect
+		(at 300.99 212.09)
+		(uuid "db4c3420-a221-45ca-9806-2b62ef5dc533")
+	)
+	(no_connect
+		(at 300.99 152.4)
+		(uuid "dc09edcf-0e7c-443b-91d5-493096222523")
+	)
+	(no_connect
+		(at 300.99 205.74)
+		(uuid "ff23f5bf-0c7f-409b-aa82-5e2a094b3ec7")
+	)
 	(wire
 		(pts
 			(xy 24.13 234.95) (xy 266.7 234.95)
@@ -149,6 +241,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 52.07) (xy 314.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215c1bb6-8ab7-4d9e-98d5-8f8ed7e03744")
+	)
+	(wire
+		(pts
 			(xy 72.39 76.2) (xy 111.76 76.2)
 		)
 		(stroke
@@ -199,6 +301,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 52.07) (xy 314.96 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353c1c12-08e8-4aee-b5d0-bdc2fb9ab989")
+	)
+	(wire
+		(pts
 			(xy 38.1 55.88) (xy 25.4 55.88)
 		)
 		(stroke
@@ -236,6 +348,26 @@
 			(type default)
 		)
 		(uuid "38b49187-01d8-49df-a5ef-94f2980eef94")
+	)
+	(wire
+		(pts
+			(xy 314.96 156.21) (xy 300.99 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398e179e-c339-4421-adc5-7f8c87fa823b")
+	)
+	(wire
+		(pts
+			(xy 300.99 158.75) (xy 317.5 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad222c9-7a34-4571-8c37-ff9e1bd58f43")
 	)
 	(wire
 		(pts
@@ -496,6 +628,16 @@
 			(type default)
 		)
 		(uuid "6b2773fd-965d-4374-97bf-463c5a00725c")
+	)
+	(wire
+		(pts
+			(xy 317.5 158.75) (xy 317.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5aa8e2-2d70-465b-a271-b185bc4c6dfc")
 	)
 	(wire
 		(pts
@@ -879,6 +1021,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 49.53) (xy 300.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a340ee-776a-4911-99f0-4cb9415b6911")
+	)
+	(wire
+		(pts
 			(xy 203.2 43.18) (xy 266.7 43.18)
 		)
 		(stroke
@@ -1172,7 +1324,7 @@
 			)
 			(uuid "51f394fb-c17c-4761-be93-696fc9a1e7b6")
 		)
-		(pin "TALK_MICL" input
+		(pin "TALK_MICL" output
 			(at 38.1 59.69 180)
 			(effects
 				(font
@@ -1182,7 +1334,7 @@
 			)
 			(uuid "fff7338f-1943-45f5-8c33-a7f9279a878f")
 		)
-		(pin "I2C_SDA" input
+		(pin "I2C_SDA" bidirectional
 			(at 72.39 109.22 0)
 			(effects
 				(font
@@ -1202,7 +1354,7 @@
 			)
 			(uuid "54307758-46a6-4069-8256-f1b456f85435")
 		)
-		(pin "SPI_MISOL" input
+		(pin "SPI_MISOL" output
 			(at 72.39 78.74 0)
 			(effects
 				(font
@@ -1222,7 +1374,7 @@
 			)
 			(uuid "9c52d530-aed5-4c51-8bd2-52bcc18a70c6")
 		)
-		(pin "ADS_DRDYL" input
+		(pin "ADS_DRDYL" output
 			(at 72.39 71.12 0)
 			(effects
 				(font
@@ -1242,7 +1394,7 @@
 			)
 			(uuid "a2ee7fc2-b69c-444f-a040-eb7295631627")
 		)
-		(pin "I2C_SCL" input
+		(pin "I2C_SCL" bidirectional
 			(at 72.39 106.68 0)
 			(effects
 				(font
@@ -1272,7 +1424,7 @@
 			)
 			(uuid "fca5a1ad-68d1-4b79-9ce6-772f83bb8136")
 		)
-		(pin "TALK_MICR" input
+		(pin "TALK_MICR" output
 			(at 38.1 62.23 180)
 			(effects
 				(font
@@ -1322,7 +1474,7 @@
 			)
 			(uuid "27ed81b7-749b-4bdb-8c17-e7ffb3ee600e")
 		)
-		(pin "ADS_DRDYR" input
+		(pin "ADS_DRDYR" output
 			(at 72.39 88.9 0)
 			(effects
 				(font
@@ -1332,7 +1484,7 @@
 			)
 			(uuid "dde5d1c6-a1ee-437d-9dd7-695f876cb8de")
 		)
-		(pin "SPI_MISOR" input
+		(pin "SPI_MISOR" output
 			(at 72.39 96.52 0)
 			(effects
 				(font
@@ -1352,7 +1504,7 @@
 			)
 			(uuid "5ce887d2-bff3-4962-84b2-84801f290a86")
 		)
-		(pin "HR_INTR" input
+		(pin "HR_INTR" output
 			(at 72.39 101.6 0)
 			(effects
 				(font
@@ -1401,7 +1553,7 @@
 				(justify left top)
 			)
 		)
-		(pin "IMU_CSL" input
+		(pin "BUD_IMU_CSL" output
 			(at 111.76 83.82 180)
 			(effects
 				(font
@@ -1411,7 +1563,7 @@
 			)
 			(uuid "dfd4ccdd-94ee-4279-98a1-f685ec89762a")
 		)
-		(pin "I2C_SDA" input
+		(pin "BUD_I2C_SDA" bidirectional
 			(at 111.76 109.22 180)
 			(effects
 				(font
@@ -1421,7 +1573,7 @@
 			)
 			(uuid "dec9ca8d-a1bd-40e2-a2e6-6ae436d1ca89")
 		)
-		(pin "I2C_SCL" input
+		(pin "BUD_I2C_SCL" bidirectional
 			(at 111.76 106.68 180)
 			(effects
 				(font
@@ -1431,7 +1583,7 @@
 			)
 			(uuid "014b2658-745a-439a-acb4-256d65727a08")
 		)
-		(pin "SPI_MISOL" input
+		(pin "BUD_SPI_MISOL" input
 			(at 111.76 78.74 180)
 			(effects
 				(font
@@ -1451,7 +1603,7 @@
 			)
 			(uuid "77705667-81f3-4282-ba78-cc9f828f9e5b")
 		)
-		(pin "SPI_CSL" input
+		(pin "BUD_SPI_CSL" output
 			(at 111.76 73.66 180)
 			(effects
 				(font
@@ -1461,7 +1613,7 @@
 			)
 			(uuid "4008dcb2-5133-4d62-aa33-94e2561885cb")
 		)
-		(pin "ENABLE_PINS" input
+		(pin "BUD_ENABLE_PINS" output
 			(at 111.76 43.18 180)
 			(effects
 				(font
@@ -1471,7 +1623,7 @@
 			)
 			(uuid "ca643466-4427-49cb-ad28-cf2004c5d3c4")
 		)
-		(pin "SPI_MOSIL" input
+		(pin "BUD_SPI_MOSIL" output
 			(at 111.76 81.28 180)
 			(effects
 				(font
@@ -1481,7 +1633,7 @@
 			)
 			(uuid "40b13e38-524e-4555-95af-f4106fceb395")
 		)
-		(pin "SPI_CKL" input
+		(pin "BUD_SPI_CKL" output
 			(at 111.76 76.2 180)
 			(effects
 				(font
@@ -1491,7 +1643,7 @@
 			)
 			(uuid "a1fcca41-49a4-4032-926d-d8c5e80e300b")
 		)
-		(pin "ADS_DRDYL" input
+		(pin "BUD_ADS_DRDYL" input
 			(at 111.76 71.12 180)
 			(effects
 				(font
@@ -1501,7 +1653,7 @@
 			)
 			(uuid "db350f7e-d97e-4c1d-8bd2-2c4e858f974c")
 		)
-		(pin "SPI_MISOR" input
+		(pin "BUD_SPI_MISOR" input
 			(at 111.76 96.52 180)
 			(effects
 				(font
@@ -1511,7 +1663,7 @@
 			)
 			(uuid "80492c65-23fe-467e-991c-807488310410")
 		)
-		(pin "SPI_CSR" input
+		(pin "BUD_SPI_CSR" output
 			(at 111.76 91.44 180)
 			(effects
 				(font
@@ -1521,7 +1673,7 @@
 			)
 			(uuid "7485bcb3-60d1-4a38-b891-5b7ee7fe58ab")
 		)
-		(pin "SPI_CKR" input
+		(pin "BUD_SPI_CKR" output
 			(at 111.76 93.98 180)
 			(effects
 				(font
@@ -1531,7 +1683,7 @@
 			)
 			(uuid "b216d1b3-7b68-4f01-a1b5-fe52fb59a702")
 		)
-		(pin "ADS_DRDYR" input
+		(pin "BUD_ADS_DRDYR" input
 			(at 111.76 88.9 180)
 			(effects
 				(font
@@ -1541,7 +1693,7 @@
 			)
 			(uuid "94c969ab-ac19-4a83-9c33-eaa5f1b53e1d")
 		)
-		(pin "SPI_MOSIR" input
+		(pin "BUD_SPI_MOSIR" output
 			(at 111.76 99.06 180)
 			(effects
 				(font
@@ -1551,7 +1703,7 @@
 			)
 			(uuid "37a616b1-1757-4fef-a7b9-12748e7e128b")
 		)
-		(pin "HR_INTR" input
+		(pin "BUD_HR_INTR" input
 			(at 111.76 101.6 180)
 			(effects
 				(font
@@ -1561,7 +1713,7 @@
 			)
 			(uuid "2fe60338-f6d9-4bdf-acb2-3b665dd604cf")
 		)
-		(pin "USB_RESET_N" input
+		(pin "USB_RESET_N" output
 			(at 203.2 77.47 0)
 			(effects
 				(font
@@ -1571,7 +1723,7 @@
 			)
 			(uuid "e3236b08-ba27-437b-b48d-07d6a966ad70")
 		)
-		(pin "USB_SMBDATA" input
+		(pin "USB_SMBDATA" bidirectional
 			(at 203.2 74.93 0)
 			(effects
 				(font
@@ -1581,7 +1733,7 @@
 			)
 			(uuid "04eba177-4b61-4ff2-84f1-bd34fc68def1")
 		)
-		(pin "USB_SMBCLK" input
+		(pin "USB_SMBCLK" bidirectional
 			(at 203.2 72.39 0)
 			(effects
 				(font
@@ -1591,7 +1743,7 @@
 			)
 			(uuid "64d3479b-f205-476e-a5b7-d0606a29b945")
 		)
-		(pin "USB_DM_MCU" input
+		(pin "USB_DM" bidirectional
 			(at 203.2 90.17 0)
 			(effects
 				(font
@@ -1601,7 +1753,7 @@
 			)
 			(uuid "caeab712-ac1d-4d0a-b3cc-92910216e654")
 		)
-		(pin "USB_DP_MCU" input
+		(pin "USB_DP" bidirectional
 			(at 203.2 87.63 0)
 			(effects
 				(font
@@ -1621,7 +1773,7 @@
 			)
 			(uuid "e597a014-b50d-4b52-aeb8-13b428c0b296")
 		)
-		(pin "BAT_SCL" input
+		(pin "BAT_SCL" bidirectional
 			(at 203.2 62.23 0)
 			(effects
 				(font
@@ -1631,7 +1783,7 @@
 			)
 			(uuid "b53beac3-b23d-4bf7-9802-b56f2537db36")
 		)
-		(pin "BAT_SDA" input
+		(pin "BAT_SDA" bidirectional
 			(at 203.2 64.77 0)
 			(effects
 				(font
@@ -1661,7 +1813,7 @@
 			)
 			(uuid "3bb2f79c-c387-4f79-9166-98646c5cf6bc")
 		)
-		(pin "BAT_PSEL" input
+		(pin "BAT_PSEL" output
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -1671,7 +1823,7 @@
 			)
 			(uuid "57a3e508-7a53-4326-91bc-b6ba5b8ff4f4")
 		)
-		(pin "BAT_CE" input
+		(pin "BAT_CE" output
 			(at 203.2 43.18 0)
 			(effects
 				(font
@@ -1681,7 +1833,7 @@
 			)
 			(uuid "4f1e97d2-c94d-49f4-880c-c46e5e79419f")
 		)
-		(pin "BAT_QON" input
+		(pin "BAT_QON" output
 			(at 203.2 40.64 0)
 			(effects
 				(font
@@ -1691,7 +1843,7 @@
 			)
 			(uuid "eb2640b7-f281-4712-a366-a74f53574e27")
 		)
-		(pin "BAT_OTG" input
+		(pin "BAT_OTG" output
 			(at 203.2 45.72 0)
 			(effects
 				(font
@@ -1701,7 +1853,7 @@
 			)
 			(uuid "5aaea534-43be-4009-b677-15f549e6b26d")
 		)
-		(pin "USB_SUSP_IND" input
+		(pin "USB_SUSP_IND" bidirectional
 			(at 203.2 80.01 0)
 			(effects
 				(font
@@ -1741,7 +1893,7 @@
 			)
 			(uuid "1f048548-b0d9-4fd0-812a-68ccda32f992")
 		)
-		(pin "LED_SDA" input
+		(pin "LED_SDA" bidirectional
 			(at 137.16 144.78 270)
 			(effects
 				(font
@@ -1761,7 +1913,7 @@
 			)
 			(uuid "43a464fc-4b81-4143-8394-b706b84818c6")
 		)
-		(pin "LED_SCL" input
+		(pin "LED_SCL" bidirectional
 			(at 134.62 144.78 270)
 			(effects
 				(font
@@ -1771,7 +1923,7 @@
 			)
 			(uuid "42de5331-2c86-4ed1-9c60-f422ed97936c")
 		)
-		(pin "LED_EN" input
+		(pin "LED_EN" output
 			(at 132.08 144.78 270)
 			(effects
 				(font
@@ -1820,7 +1972,7 @@
 				(justify left top)
 			)
 		)
-		(pin "VSYS" input
+		(pin "VSYS" output
 			(at 266.7 35.56 180)
 			(effects
 				(font
@@ -1830,6 +1982,16 @@
 			)
 			(uuid "1685c2b7-64a7-4781-a49d-2aa7acbf943b")
 		)
+		(pin "VBATT" output
+			(at 300.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d0f7080-2942-4a53-bc2d-2b0fb650ded5")
+		)
 		(pin "BAT_OTG" input
 			(at 266.7 45.72 180)
 			(effects
@@ -1838,7 +2000,7 @@
 				)
 				(justify left)
 			)
-			(uuid "05c9304c-2f96-4a6a-8a91-983da1e36dad")
+			(uuid "3bbb150a-3640-4d30-8d15-118889c80f43")
 		)
 		(pin "BAT_PSEL" input
 			(at 266.7 48.26 180)
@@ -1848,7 +2010,7 @@
 				)
 				(justify left)
 			)
-			(uuid "89be0627-d491-47d2-a981-6f4482cabcdf")
+			(uuid "5dd5fedb-f056-46d0-be63-d98f36ceefc1")
 		)
 		(pin "BAT_CE" input
 			(at 266.7 43.18 180)
@@ -1858,7 +2020,7 @@
 				)
 				(justify left)
 			)
-			(uuid "9d77c3c2-ecad-44ee-8406-f827687fbaf2")
+			(uuid "502c0e0f-d843-4b36-a9d4-b798858da6f1")
 		)
 		(pin "BAT_QON" input
 			(at 266.7 40.64 180)
@@ -1868,39 +2030,49 @@
 				)
 				(justify left)
 			)
-			(uuid "31986918-c5e8-40af-b3f3-809d1e54f59d")
+			(uuid "e4f0767b-46b9-414e-af4b-9ddcf1d31eae")
 		)
-		(pin "BAT_STAT" input
-			(at 266.7 57.15 180)
+		(pin "USB_DP_BT" bidirectional
+			(at 266.7 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c4a35a7d-a6b6-43e2-b62b-4d94f164ee35")
+			(uuid "76560d68-a733-4bce-9aa8-84600adde9c2")
 		)
-		(pin "BAT_SDA" input
-			(at 266.7 64.77 180)
+		(pin "USB_DM_BT" bidirectional
+			(at 266.7 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1b30def5-229a-4cb1-9dd1-c85f15ab6a7d")
+			(uuid "22218a72-3785-467e-95e1-d360e511b26e")
 		)
-		(pin "BAT_INT" input
-			(at 266.7 59.69 180)
+		(pin "USB_DP_MCU" bidirectional
+			(at 266.7 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "49b23ff0-3853-4284-ac38-5981f127aef6")
+			(uuid "3f72d537-1d89-4019-b731-a9008bbf9cca")
 		)
-		(pin "BAT_SCL" input
+		(pin "USB_DM_MCU" bidirectional
+			(at 266.7 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5add9fd6-a290-4ea6-9024-443cdd935fa9")
+		)
+		(pin "BAT_SCL" bidirectional
 			(at 266.7 62.23 180)
 			(effects
 				(font
@@ -1908,9 +2080,9 @@
 				)
 				(justify left)
 			)
-			(uuid "fd792209-2626-46a9-a60c-7aff29869654")
+			(uuid "b6e75391-bbd1-4c61-ab54-447788f5bf89")
 		)
-		(pin "BAT_PG" input
+		(pin "BAT_PG" output
 			(at 266.7 54.61 180)
 			(effects
 				(font
@@ -1918,19 +2090,39 @@
 				)
 				(justify left)
 			)
-			(uuid "1f685605-7887-4e7b-bb43-8388f3a1d293")
+			(uuid "c85a4cdc-1db1-4c9f-b807-6a2da537eec9")
 		)
-		(pin "USB_SMBCLK" input
-			(at 266.7 72.39 180)
+		(pin "BAT_STAT" output
+			(at 266.7 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ec553f61-373f-4c92-8d69-88779619ec0f")
+			(uuid "c8f628d7-1d05-4e3a-b4a9-49cc9c5d4a65")
 		)
-		(pin "USB_SMBDATA" input
+		(pin "BAT_INT" output
+			(at 266.7 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "272355fc-f28b-4afc-9aa9-48ff30933edc")
+		)
+		(pin "BAT_SDA" bidirectional
+			(at 266.7 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d54d9c2-6468-457a-8c23-045fb71116be")
+		)
+		(pin "USB_SMBDATA" bidirectional
 			(at 266.7 74.93 180)
 			(effects
 				(font
@@ -1938,17 +2130,7 @@
 				)
 				(justify left)
 			)
-			(uuid "0e782fde-05dc-4f40-afbf-f6af147f024e")
-		)
-		(pin "USB_SUSP_IND" input
-			(at 266.7 80.01 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a3b42d25-3c1b-4adc-a8ac-bbcc0719aa95")
+			(uuid "195c2f32-47ad-4635-90d4-d7a5e6bd5ac3")
 		)
 		(pin "USB_RESET_N" input
 			(at 266.7 77.47 180)
@@ -1958,47 +2140,37 @@
 				)
 				(justify left)
 			)
-			(uuid "6a2a183e-e232-4b42-b3f7-55786a6d44d5")
+			(uuid "06033d64-e966-4ad2-b774-0023388f914a")
 		)
-		(pin "USB_DP_MCU" input
-			(at 266.7 87.63 180)
+		(pin "USB_SUSP_IND" bidirectional
+			(at 266.7 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8aae6bb7-a64c-4493-9389-91a79520c090")
+			(uuid "156304ff-fc48-4e26-b38d-e9b058932316")
 		)
-		(pin "USB_DM_MCU" input
-			(at 266.7 90.17 180)
+		(pin "USB_SMBCLK" bidirectional
+			(at 266.7 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4a1851c9-7559-4429-9156-d570bc97478d")
+			(uuid "5ab0903c-06bb-4a00-9fb0-f70a50b61556")
 		)
-		(pin "USB_DM_BT" input
-			(at 266.7 97.79 180)
+		(pin "VUSB" output
+			(at 300.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "913d309b-e066-4c88-82ea-4e0bef97338c")
-		)
-		(pin "USB_DP_BT" input
-			(at 266.7 95.25 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "50088d09-8f97-48ac-8b48-5284bdd99841")
+			(uuid "2225d346-a73e-45fc-87f9-61cabf8ffcb5")
 		)
 		(instances
 			(project "Mustang-Digital"
@@ -2049,7 +2221,7 @@
 			)
 			(uuid "a081d5cb-9331-4d48-ae67-f2784eda0b1c")
 		)
-		(pin "LED_SCL" input
+		(pin "LED_SCL" bidirectional
 			(at 72.39 172.72 0)
 			(effects
 				(font
@@ -2059,7 +2231,7 @@
 			)
 			(uuid "4de508b5-2b89-47bc-852e-e8c413983268")
 		)
-		(pin "LED_SDA" input
+		(pin "LED_SDA" bidirectional
 			(at 72.39 175.26 0)
 			(effects
 				(font
@@ -2069,7 +2241,7 @@
 			)
 			(uuid "88cf4c35-1480-42c6-b616-d0db13cf2c1e")
 		)
-		(pin "SW_PLAY" input
+		(pin "SW_PLAY" output
 			(at 72.39 181.61 0)
 			(effects
 				(font
@@ -2079,7 +2251,7 @@
 			)
 			(uuid "443e9d58-f593-4c69-b0db-835ebc304e49")
 		)
-		(pin "SW_RECORD" input
+		(pin "SW_RECORD" output
 			(at 72.39 184.15 0)
 			(effects
 				(font
@@ -2089,7 +2261,7 @@
 			)
 			(uuid "a42df99e-415b-4275-b1a4-0d542526b0e6")
 		)
-		(pin "SW_BTPAIR" input
+		(pin "SW_BTPAIR" output
 			(at 72.39 186.69 0)
 			(effects
 				(font
@@ -2099,7 +2271,7 @@
 			)
 			(uuid "be7d8ca6-74f6-4430-b89a-fcdd6ea3e113")
 		)
-		(pin "SW_PWR" input
+		(pin "SW_PWR" output
 			(at 72.39 189.23 0)
 			(effects
 				(font
@@ -2159,7 +2331,7 @@
 			(uuid "157836e2-287a-4087-92df-3f35d95ec8c0")
 		)
 		(pin "P0_5" bidirectional
-			(at 300.99 222.25 0)
+			(at 300.99 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +2341,7 @@
 			(uuid "ee36fc7e-06a0-42ae-8805-742937357be5")
 		)
 		(pin "P0_2" bidirectional
-			(at 300.99 217.17 0)
+			(at 300.99 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +2351,7 @@
 			(uuid "b2f9212e-2f45-40bd-b65d-5aee7403713f")
 		)
 		(pin "P0_6" bidirectional
-			(at 300.99 224.79 0)
+			(at 300.99 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2361,7 @@
 			(uuid "b7c0b8c0-e14b-48f0-9e6f-0eb26ea06ea7")
 		)
 		(pin "P0_3" bidirectional
-			(at 300.99 219.71 0)
+			(at 300.99 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2371,7 @@
 			(uuid "611f0e2f-25fb-4a87-9b0c-0c0545050414")
 		)
 		(pin "P0_1" bidirectional
-			(at 300.99 214.63 0)
+			(at 300.99 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2411,7 @@
 			(uuid "1d0a363f-81e1-41cb-b19a-7670ebec7428")
 		)
 		(pin "P2_7" bidirectional
-			(at 300.99 187.96 0)
+			(at 300.99 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2431,7 @@
 			(uuid "495a13ae-76d6-47cc-803e-0b339049e3ec")
 		)
 		(pin "P3_2" bidirectional
-			(at 300.99 193.04 0)
+			(at 300.99 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2461,7 @@
 			(uuid "1c897c1b-0147-49b4-ba1a-41e7bbbac182")
 		)
 		(pin "P2_6" bidirectional
-			(at 300.99 185.42 0)
+			(at 300.99 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2471,7 @@
 			(uuid "101b85c5-96d8-4a04-9faa-d8798ec759e1")
 		)
 		(pin "P0_7" bidirectional
-			(at 300.99 227.33 0)
+			(at 300.99 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2481,7 @@
 			(uuid "ddf5c3f9-6e54-473b-8cad-269338200edf")
 		)
 		(pin "P2_3" bidirectional
-			(at 300.99 182.88 0)
+			(at 300.99 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2571,7 @@
 			(uuid "0eb7bb6b-729b-4b96-8fcd-296006b150a4")
 		)
 		(pin "I2S_DT" output
-			(at 300.99 209.55 0)
+			(at 300.99 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2581,7 @@
 			(uuid "152de8fe-0416-483f-9ae7-2ad6f2df732d")
 		)
 		(pin "I2S_MCLK" output
-			(at 300.99 199.39 0)
+			(at 300.99 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2591,7 @@
 			(uuid "07ee1789-bef9-4175-ab79-a808c1c91520")
 		)
 		(pin "I2S_SCLK" bidirectional
-			(at 300.99 201.93 0)
+			(at 300.99 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2601,7 @@
 			(uuid "8ffa602e-b64a-4d9f-a1bf-8f89f55ea57f")
 		)
 		(pin "I2S_DR" input
-			(at 300.99 207.01 0)
+			(at 300.99 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2611,7 @@
 			(uuid "1f2a0b7a-7e5c-4dce-bf60-f41bfcb3c15d")
 		)
 		(pin "I2S_RFS" bidirectional
-			(at 300.99 204.47 0)
+			(at 300.99 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1563,7 +1563,7 @@
 			)
 			(uuid "dfd4ccdd-94ee-4279-98a1-f685ec89762a")
 		)
-		(pin "BUD_I2C_SDA" bidirectional
+		(pin "BUD_I2C_SDA_1V8" bidirectional
 			(at 111.76 109.22 180)
 			(effects
 				(font
@@ -1573,7 +1573,7 @@
 			)
 			(uuid "dec9ca8d-a1bd-40e2-a2e6-6ae436d1ca89")
 		)
-		(pin "BUD_I2C_SCL" bidirectional
+		(pin "BUD_I2C_SCL_1V8" bidirectional
 			(at 111.76 106.68 180)
 			(effects
 				(font

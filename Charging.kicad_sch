@@ -143,6 +143,26 @@
 					)
 				)
 			)
+			(symbol "LP5907MFX-3.3_NOPB_1_1"
+				(pin free non_logic
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Mustang_Library:+3V3"
 			(power)
@@ -3177,271 +3197,7 @@
 				)
 			)
 		)
-		(symbol "Mustang_Library:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Mustang_Library:RESISTOR0805_NOOUTLINE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "Adafruit USB Isolator:0805-NO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR0805_NOOUTLINE_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Mustang_Library:R_h"
+		(symbol "Mustang_Library:R_0603_0R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -3458,15 +3214,16 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R"
+			(property "Value" "0R"
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
+						(bold yes)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 				(at 0 -1.778 0)
 				(effects
 					(font
@@ -3475,7 +3232,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 				(at 0 0 90)
 				(effects
 					(font
@@ -3484,13 +3241,40 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant Jumper"
 				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AC0603JR-070RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "J"
+				(at -3.175 -0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify right top)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
@@ -3511,7 +3295,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_h_0_1"
+			(symbol "R_0603_0R_0_1"
 				(rectangle
 					(start 2.54 -1.016)
 					(end -2.54 1.016)
@@ -3524,7 +3308,1057 @@
 					)
 				)
 			)
-			(symbol "R_h_1_1"
+			(symbol "R_0603_0R_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mustang_Library:R_0603_100K"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "100K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AC0603FR-07100KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" ".1W"
+				(at -3.175 -0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_100K_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_100K_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mustang_Library:R_0603_10K"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "10K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AC0603FR-7W10KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" ".2W"
+				(at -3.175 -0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_10K_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_10K_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mustang_Library:R_0603_12K"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "12K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AC0603FR-0712KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" ".1W"
+				(at -3.175 -0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_12K_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_12K_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mustang_Library:R_0603_249R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "249R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AC0603JR-07249RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" ".1W"
+				(at -3.175 -0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_249R_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_249R_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mustang_Library:R_0603_24R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "24R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AC0603JR-0724RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" ".1W"
+				(at -3.175 -0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_24R_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_24R_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mustang_Library:R_0603_30.9K"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "30.9K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AC0603FR-0730K9L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" ".1W"
+				(at -3.175 -0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_30.9K_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_30.9K_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mustang_Library:R_0603_5.23K"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5.23K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AC0603FR-075K23L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" ".1W"
+				(at -3.175 -0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_5.23K_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_5.23K_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -3726,7 +4560,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 31.242 7.366 0)
+				(at 3.81 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3735,7 +4569,7 @@
 				)
 			)
 			(property "Value" "TPD4E1B06DRLR"
-				(at 30.988 4.572 0)
+				(at 19.05 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4818,6 +5652,12 @@
 		(uuid "00116d09-e6b1-46cd-9f88-805ce7c8c802")
 	)
 	(junction
+		(at 665.48 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00f4d7c2-2818-45d0-bf3e-afccdb3c3cbf")
+	)
+	(junction
 		(at 509.27 308.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4834,12 +5674,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "103de51e-ad03-4459-8788-089297597334")
-	)
-	(junction
-		(at 177.8 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10960d89-fbd3-43a4-8166-e2899b17b7b3")
 	)
 	(junction
 		(at 535.94 327.66)
@@ -4902,12 +5736,6 @@
 		(uuid "2c2afcf8-9ece-4a32-87ec-ab195a947e1c")
 	)
 	(junction
-		(at 220.98 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d581c92-dbd4-4ffe-880a-30bde245f57d")
-	)
-	(junction
 		(at 499.11 293.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4938,6 +5766,12 @@
 		(uuid "3a02c99d-8383-46ad-88d7-1678a21dff8b")
 	)
 	(junction
+		(at 603.25 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f4f2704-7b39-4ad5-a163-990fc6c6aeab")
+	)
+	(junction
 		(at 299.72 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4954,6 +5788,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4170987d-ed81-4d75-a1da-fb7c10388134")
+	)
+	(junction
+		(at 600.71 341.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "437edab3-acec-4557-a45a-c74330fdf055")
 	)
 	(junction
 		(at 287.02 226.06)
@@ -5016,6 +5856,12 @@
 		(uuid "5e6b8557-4cea-4162-b743-23a1e88ec6a7")
 	)
 	(junction
+		(at 448.31 313.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e9612e3-99fc-4b90-b1ef-d59e1a149d7f")
+	)
+	(junction
 		(at 176.53 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5076,16 +5922,16 @@
 		(uuid "6d294e79-e45f-4d73-8bb1-9ef5bd390257")
 	)
 	(junction
-		(at 600.71 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d3914f9-3eb8-47d9-ae62-b8e553a748ac")
-	)
-	(junction
 		(at 243.84 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6faef48a-7988-4f56-a0a6-d794a50e8786")
+	)
+	(junction
+		(at 224.79 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "712a1fc5-b7d1-4c08-8849-3de20a63168e")
 	)
 	(junction
 		(at 629.92 307.34)
@@ -5106,10 +5952,22 @@
 		(uuid "76034c67-913d-41a5-8402-e25fd8757577")
 	)
 	(junction
+		(at 638.81 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7818a276-922b-4299-8890-fa6824619215")
+	)
+	(junction
 		(at 238.76 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79ed6aba-e0db-48d3-966d-bfcd6b03cd0f")
+	)
+	(junction
+		(at 177.8 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bb13b65-7491-44b4-9e12-b35d88295107")
 	)
 	(junction
 		(at 572.77 289.56)
@@ -5152,12 +6010,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90514e02-bd33-4156-bf70-d1270b882aa9")
-	)
-	(junction
-		(at 659.765 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91d0f13b-fad0-4a5c-b937-d6f4c789cbf3")
 	)
 	(junction
 		(at 494.03 350.52)
@@ -5208,6 +6060,12 @@
 		(uuid "9e926180-fabb-4bf6-aca4-5c60670ed1d2")
 	)
 	(junction
+		(at 426.72 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ec60db-dd82-4829-8d7a-1385f193e0f3")
+	)
+	(junction
 		(at 717.55 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5236,12 +6094,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7435541-f772-4f84-a788-3258a9c26d0e")
-	)
-	(junction
-		(at 426.72 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8821b56-570c-4761-b88b-0d6fed82f690")
 	)
 	(junction
 		(at 509.27 293.37)
@@ -5446,10 +6298,6 @@
 		(uuid "4f2fadb1-7888-4421-bec0-e75e74922524")
 	)
 	(no_connect
-		(at 462.28 354.33)
-		(uuid "5fc1ea3d-e096-4203-bdb5-56178e8d9d44")
-	)
-	(no_connect
 		(at 590.55 137.16)
 		(uuid "623e1be5-35f8-456c-9c2f-e88d579b4ea4")
 	)
@@ -5603,6 +6451,26 @@
 	)
 	(wire
 		(pts
+			(xy 656.59 241.3) (xy 665.48 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0616adf0-4946-463a-abaa-f1f4fcfd800a")
+	)
+	(wire
+		(pts
+			(xy 448.31 354.33) (xy 448.31 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0642a312-f62e-4396-aaec-13a3498b74fb")
+	)
+	(wire
+		(pts
 			(xy 290.83 137.16) (xy 294.64 137.16)
 		)
 		(stroke
@@ -5630,6 +6498,16 @@
 			(type default)
 		)
 		(uuid "0796c4bf-b872-4753-9595-d686d436819b")
+	)
+	(wire
+		(pts
+			(xy 462.28 354.33) (xy 448.31 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0858e230-5669-47e8-a110-fa652cfdd2f1")
 	)
 	(wire
 		(pts
@@ -5773,6 +6651,16 @@
 	)
 	(wire
 		(pts
+			(xy 648.97 241.3) (xy 638.81 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13adbddd-80d0-4228-8919-a468896ebbf7")
+	)
+	(wire
+		(pts
 			(xy 180.34 160.02) (xy 176.53 160.02)
 		)
 		(stroke
@@ -5883,6 +6771,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 119.38) (xy 426.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d45d82-ea57-4171-a275-5ce6ff6a763d")
+	)
+	(wire
+		(pts
 			(xy 603.25 182.88) (xy 595.63 182.88)
 		)
 		(stroke
@@ -5920,6 +6818,16 @@
 			(type default)
 		)
 		(uuid "1af929b6-5a09-4f80-a4fe-c05ef7606c93")
+	)
+	(wire
+		(pts
+			(xy 566.42 165.1) (xy 603.25 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3c03d7-2126-49c6-8f8f-d444e000b6d4")
 	)
 	(wire
 		(pts
@@ -5963,7 +6871,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 74.93) (xy 218.44 142.24)
+			(xy 222.25 74.93) (xy 222.25 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6023,7 +6931,7 @@
 	)
 	(wire
 		(pts
-			(xy 652.145 243.84) (xy 659.765 243.84)
+			(xy 652.145 243.84) (xy 665.48 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6033,7 +6941,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 218.44 74.93)
+			(xy 147.32 74.93) (xy 222.25 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6130,6 +7038,16 @@
 			(type default)
 		)
 		(uuid "27bd9517-b75a-4c38-895e-04345116e1e8")
+	)
+	(wire
+		(pts
+			(xy 224.79 128.27) (xy 245.11 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27cbe715-2ae4-49c1-9cd9-23591a4f148e")
 	)
 	(wire
 		(pts
@@ -6253,13 +7171,23 @@
 	)
 	(wire
 		(pts
-			(xy 624.84 243.84) (xy 652.145 243.84)
+			(xy 624.84 243.84) (xy 638.81 243.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3018ee2b-253a-4d54-9b32-eae0cdcc28e5")
+	)
+	(wire
+		(pts
+			(xy 426.72 121.92) (xy 426.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30216c8f-6eba-4e9e-ba9f-c56a1c2f41ae")
 	)
 	(wire
 		(pts
@@ -6400,6 +7328,16 @@
 			(type default)
 		)
 		(uuid "3492ca24-3a33-466f-b0a7-4bb609bad86a")
+	)
+	(wire
+		(pts
+			(xy 231.14 139.7) (xy 236.22 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34edfe87-6472-4ad1-9918-6e0c509acb2f")
 	)
 	(wire
 		(pts
@@ -6583,6 +7521,16 @@
 	)
 	(wire
 		(pts
+			(xy 448.31 313.69) (xy 462.28 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41956325-38b9-4d08-a0fe-25bde75d1bd7")
+	)
+	(wire
+		(pts
 			(xy 461.01 187.96) (xy 461.01 185.42)
 		)
 		(stroke
@@ -6603,7 +7551,7 @@
 	)
 	(wire
 		(pts
-			(xy 590.55 312.42) (xy 594.36 312.42)
+			(xy 588.01 312.42) (xy 594.36 312.42)
 		)
 		(stroke
 			(width 0)
@@ -6683,7 +7631,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 274.32) (xy 505.46 274.32)
+			(xy 496.57 274.32) (xy 500.38 274.32)
 		)
 		(stroke
 			(width 0)
@@ -6693,7 +7641,7 @@
 	)
 	(wire
 		(pts
-			(xy 566.42 176.53) (xy 577.85 176.53)
+			(xy 566.42 176.53) (xy 574.04 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6843,16 +7791,6 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 326.39) (xy 600.71 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c1e587-71bf-40a3-b742-29c0a74696ab")
-	)
-	(wire
-		(pts
 			(xy 590.55 148.59) (xy 596.9 148.59)
 		)
 		(stroke
@@ -6893,6 +7831,16 @@
 	)
 	(wire
 		(pts
+			(xy 638.81 243.84) (xy 652.145 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5538500e-54d8-4dbe-86ac-26e5fd73fc6f")
+	)
+	(wire
+		(pts
 			(xy 360.68 106.68) (xy 360.68 114.3)
 		)
 		(stroke
@@ -6920,16 +7868,6 @@
 			(type default)
 		)
 		(uuid "5569a673-2425-4968-b4e9-14d16cf4dfbe")
-	)
-	(wire
-		(pts
-			(xy 426.72 119.38) (xy 500.38 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5588d9c5-14b9-4652-a588-308f0bef1727")
 	)
 	(wire
 		(pts
@@ -7010,6 +7948,16 @@
 			(type default)
 		)
 		(uuid "57d1c1d1-d027-4b85-8019-24b5d84e2230")
+	)
+	(wire
+		(pts
+			(xy 581.66 176.53) (xy 585.47 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591a2970-e2f1-49d8-9652-06181915e8b8")
 	)
 	(wire
 		(pts
@@ -7293,16 +8241,6 @@
 	)
 	(wire
 		(pts
-			(xy 665.48 241.3) (xy 659.765 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6de3fd22-b8a3-4943-b253-b76fe0d47157")
-	)
-	(wire
-		(pts
 			(xy 356.87 129.54) (xy 359.41 129.54)
 		)
 		(stroke
@@ -7553,17 +8491,17 @@
 	)
 	(wire
 		(pts
-			(xy 665.48 243.84) (xy 659.765 243.84)
+			(xy 600.71 330.2) (xy 600.71 341.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a5d1d01-f027-4798-a213-e93916ab8eaa")
+		(uuid "7addc497-8b52-425a-90e6-ab891eba0788")
 	)
 	(wire
 		(pts
-			(xy 220.98 72.39) (xy 220.98 128.27)
+			(xy 224.79 72.39) (xy 224.79 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7693,6 +8631,16 @@
 	)
 	(wire
 		(pts
+			(xy 600.71 341.63) (xy 600.71 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81924814-0d14-4a93-8329-1cff2227d8d9")
+	)
+	(wire
+		(pts
 			(xy 312.42 113.03) (xy 312.42 121.92)
 		)
 		(stroke
@@ -7743,7 +8691,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 139.7) (xy 219.71 139.7)
+			(xy 217.17 139.7) (xy 223.52 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7823,7 +8771,7 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 326.39) (xy 600.71 326.39)
+			(xy 594.36 341.63) (xy 600.71 341.63)
 		)
 		(stroke
 			(width 0)
@@ -7863,6 +8811,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 139.7) (xy 177.8 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbb16ae-18e9-421e-b15e-6d65cffd80df")
+	)
+	(wire
+		(pts
 			(xy 243.84 147.32) (xy 243.84 140.97)
 		)
 		(stroke
@@ -7893,13 +8851,23 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 313.69) (xy 462.28 313.69)
+			(xy 444.5 313.69) (xy 448.31 313.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "925b0ddd-670f-476a-9409-d018d519a04f")
+	)
+	(wire
+		(pts
+			(xy 594.36 330.2) (xy 594.36 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9299c93b-24aa-4241-8a85-8705124f159a")
 	)
 	(wire
 		(pts
@@ -8033,7 +9001,7 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 316.23) (xy 594.36 318.77)
+			(xy 594.36 316.23) (xy 594.36 322.58)
 		)
 		(stroke
 			(width 0)
@@ -8053,7 +9021,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 128.27) (xy 220.98 128.27)
+			(xy 151.13 128.27) (xy 224.79 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8073,7 +9041,7 @@
 	)
 	(wire
 		(pts
-			(xy 557.53 312.42) (xy 582.93 312.42)
+			(xy 557.53 312.42) (xy 580.39 312.42)
 		)
 		(stroke
 			(width 0)
@@ -8090,16 +9058,6 @@
 			(type default)
 		)
 		(uuid "a0a6f747-7ecc-4f99-bbcf-1488e79dd23b")
-	)
-	(wire
-		(pts
-			(xy 420.37 119.38) (xy 426.72 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0bce1fa-1431-4b40-97be-4153c9446582")
 	)
 	(wire
 		(pts
@@ -8120,6 +9078,16 @@
 			(type default)
 		)
 		(uuid "a0e9e077-c8b9-4884-b8c5-83d62e642969")
+	)
+	(wire
+		(pts
+			(xy 638.81 241.3) (xy 638.81 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1650f06-af6d-4a13-a212-5f89f71bad3b")
 	)
 	(wire
 		(pts
@@ -8433,6 +9401,16 @@
 	)
 	(wire
 		(pts
+			(xy 603.25 165.1) (xy 603.25 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87965ef-f390-4fb1-9a17-edd110567884")
+	)
+	(wire
+		(pts
 			(xy 180.34 139.7) (xy 177.8 139.7)
 		)
 		(stroke
@@ -8583,16 +9561,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 128.27) (xy 245.11 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e934c9-43be-4b64-b771-900b48a6621e")
-	)
-	(wire
-		(pts
 			(xy 412.75 205.74) (xy 412.75 220.98)
 		)
 		(stroke
@@ -8613,23 +9581,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 142.24) (xy 218.44 142.24)
+			(xy 215.9 142.24) (xy 222.25 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c34337a1-af98-4e8f-a405-9d8917485343")
-	)
-	(wire
-		(pts
-			(xy 659.765 241.3) (xy 659.765 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c382bd2b-6f3d-42d6-8a40-e7ac6bbadd51")
 	)
 	(wire
 		(pts
@@ -8653,6 +9611,16 @@
 	)
 	(wire
 		(pts
+			(xy 665.48 251.46) (xy 665.48 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53460a9-8644-4c6a-b6f9-b9423182b84f")
+	)
+	(wire
+		(pts
 			(xy 381 242.57) (xy 389.89 242.57)
 		)
 		(stroke
@@ -8670,6 +9638,16 @@
 			(type default)
 		)
 		(uuid "c5c17868-21ea-47ac-b29b-c3d078bb9fbf")
+	)
+	(wire
+		(pts
+			(xy 665.48 257.81) (xy 652.145 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5caa275-2dc9-439d-8398-1c8e9e1cb53f")
 	)
 	(wire
 		(pts
@@ -8753,7 +9731,7 @@
 	)
 	(wire
 		(pts
-			(xy 603.25 162.56) (xy 603.25 168.91)
+			(xy 603.25 162.56) (xy 603.25 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8763,13 +9741,23 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 274.32) (xy 518.16 274.32)
+			(xy 508 274.32) (xy 518.16 274.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c9b8669f-c944-4cfe-a173-6a74335ad502")
+	)
+	(wire
+		(pts
+			(xy 162.56 139.7) (xy 163.83 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e3fc3a-08f7-4394-9cc7-307c35a6937f")
 	)
 	(wire
 		(pts
@@ -8963,7 +9951,7 @@
 	)
 	(wire
 		(pts
-			(xy 707.39 257.81) (xy 652.145 257.81)
+			(xy 707.39 257.81) (xy 665.48 257.81)
 		)
 		(stroke
 			(width 0)
@@ -9063,7 +10051,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 72.39) (xy 220.98 72.39)
+			(xy 148.59 72.39) (xy 224.79 72.39)
 		)
 		(stroke
 			(width 0)
@@ -9153,7 +10141,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 312.42) (xy 600.71 316.23)
+			(xy 600.71 312.42) (xy 600.71 320.04)
 		)
 		(stroke
 			(width 0)
@@ -9423,7 +10411,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 119.38) (xy 410.21 119.38)
+			(xy 405.13 119.38) (xy 411.48 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9500,6 +10488,16 @@
 			(type default)
 		)
 		(uuid "fc4e3421-8033-43f4-80a9-9391c224c8b8")
+	)
+	(wire
+		(pts
+			(xy 426.72 119.38) (xy 500.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc681474-0da7-48ca-b436-17eb0e4bbfae")
 	)
 	(wire
 		(pts
@@ -11256,7 +12254,7 @@
 	)
 	(text "~1.2 Amp"
 		(exclude_from_sim no)
-		(at 509.524 277.114 0)
+		(at 504.444 277.114 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11824,7 +12822,7 @@
 		(uuid "da931e61-79ce-45bb-ab36-aa2fbff21ec9")
 	)
 	(label "RBIAS"
-		(at 575.31 176.53 180)
+		(at 571.5 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12225,7 +13223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_10K")
 		(at 298.45 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12251,7 +13249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 298.45 135.128 0)
 			(effects
 				(font
@@ -12260,7 +13258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 298.45 133.35 90)
 			(effects
 				(font
@@ -12269,13 +13267,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
 			(at 298.45 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 298.45 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-7W10KL"
+			(at 298.45 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".2W"
+			(at 295.275 133.985 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -12294,7 +13319,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 466.09 317.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12320,7 +13345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 319.278 0)
 			(effects
 				(font
@@ -12329,7 +13354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 317.5 90)
 			(effects
 				(font
@@ -12338,13 +13363,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 466.09 317.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 466.09 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 318.135 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -12357,6 +13409,102 @@
 			(project "Mustang-Digital"
 				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e0faf2cf-7881-4f25-8c42-ab52e9720230"
 					(reference "R326")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mustang_Library:R_0603_24R")
+		(at 652.78 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03b09cd5-d001-49c9-a494-ccc1b13d4050")
+		(property "Reference" "R90"
+			(at 655.32 241.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "24R"
+			(at 652.78 241.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 652.78 243.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+			(at 652.78 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
+			(at 652.78 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 652.78 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 652.78 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 649.605 241.935 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "caed4a52-3d83-4325-9553-c397a70b6e40")
+		)
+		(pin "2"
+			(uuid "7190d702-c0fe-427e-b1b9-a716a97b8218")
+		)
+		(instances
+			(project "Mustang-Digital"
+				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e0faf2cf-7881-4f25-8c42-ab52e9720230"
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -12435,7 +13583,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R")
+		(lib_id "Mustang_Library:R_0603_10K")
 		(at 514.35 299.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12444,23 +13592,43 @@
 		(dnp no)
 		(uuid "068bfbb5-69e9-4de1-aecb-1a5e823973d9")
 		(property "Reference" "R312"
-			(at 512.318 299.72 90)
+			(at 516.89 299.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
+			(at 514.35 299.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 514.35 301.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 514.35 299.72 90)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 512.572 299.72 90)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 514.35 299.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12468,7 +13636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Manufacturer" "Yageo"
 			(at 514.35 299.72 0)
 			(effects
 				(font
@@ -12477,13 +13645,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "MPN" "AC0603FR-7W10KL"
 			(at 514.35 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ".2W"
+			(at 511.175 300.355 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -12508,7 +13685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 466.09 289.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12534,7 +13711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 291.338 0)
 			(effects
 				(font
@@ -12543,7 +13720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 289.56 90)
 			(effects
 				(font
@@ -12552,13 +13729,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 466.09 289.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 466.09 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 290.195 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -12725,7 +13929,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 586.74 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12751,7 +13955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 586.74 132.588 0)
 			(effects
 				(font
@@ -12760,7 +13964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 586.74 130.81 90)
 			(effects
 				(font
@@ -12769,13 +13973,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 586.74 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 586.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 586.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 583.565 131.445 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -13034,7 +14265,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 586.74 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13060,7 +14291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 586.74 146.558 0)
 			(effects
 				(font
@@ -13069,7 +14300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 586.74 144.78 90)
 			(effects
 				(font
@@ -13078,13 +14309,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 586.74 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 586.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 586.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 583.565 145.415 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -13206,7 +14464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_0R")
 		(at 368.3 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13232,7 +14490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 368.3 116.078 0)
 			(effects
 				(font
@@ -13241,7 +14499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 368.3 114.3 90)
 			(effects
 				(font
@@ -13250,13 +14508,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant Jumper"
 			(at 368.3 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 368.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-070RL"
+			(at 368.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "J"
+			(at 365.125 114.935 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -13275,7 +14560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 482.6 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13301,7 +14586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 482.6 166.878 0)
 			(effects
 				(font
@@ -13310,7 +14595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 482.6 165.1 90)
 			(effects
 				(font
@@ -13319,13 +14604,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 482.6 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 482.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 482.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 479.425 165.735 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -13344,7 +14656,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 586.74 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13370,7 +14682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 586.74 121.158 0)
 			(effects
 				(font
@@ -13379,7 +14691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 586.74 119.38 90)
 			(effects
 				(font
@@ -13388,13 +14700,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 586.74 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 586.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 586.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 583.565 120.015 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -13414,7 +14753,7 @@
 	)
 	(symbol
 		(lib_id "Mustang_Library:GND")
-		(at 501.65 274.32 270)
+		(at 496.57 274.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13423,7 +14762,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e0a33d3-f2c0-41ff-8d0f-618d073affc4")
 		(property "Reference" "#PWR0187"
-			(at 495.3 274.32 0)
+			(at 490.22 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13432,7 +14771,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 497.84 274.3199 90)
+			(at 492.76 274.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13441,7 +14780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 501.65 274.32 0)
+			(at 496.57 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13450,7 +14789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 501.65 274.32 0)
+			(at 496.57 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13459,7 +14798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 501.65 274.32 0)
+			(at 496.57 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13486,7 +14825,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 466.09 285.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13512,7 +14851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 287.528 0)
 			(effects
 				(font
@@ -13521,7 +14860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 285.75 90)
 			(effects
 				(font
@@ -13530,13 +14869,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 466.09 285.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 466.09 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 286.385 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -13859,7 +15225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 586.74 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13885,7 +15251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 586.74 138.938 0)
 			(effects
 				(font
@@ -13894,7 +15260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 586.74 137.16 90)
 			(effects
 				(font
@@ -13903,13 +15269,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 586.74 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 586.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 586.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 583.565 137.795 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -14651,9 +16044,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:RESISTOR0805_NOOUTLINE")
-		(at 224.79 139.7 0)
-		(mirror y)
+		(lib_id "Mustang_Library:R_0603_5.23K")
+		(at 227.33 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14661,15 +16053,16 @@
 		(dnp no)
 		(uuid "39390b54-cc42-4ae6-b6e6-71d6c18848c9")
 		(property "Reference" "R318"
-			(at 224.79 137.16 0)
+			(at 229.87 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 224.79 139.7 0)
+		(property "Value" "5.23K"
+			(at 227.33 139.7 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -14677,8 +16070,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 224.79 139.7 0)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 227.33 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14686,8 +16079,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 224.79 139.7 0)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+			(at 227.33 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14695,13 +16088,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-			(at 224.79 139.7 0)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 227.33 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-075K23L"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 224.155 140.335 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -14726,7 +16146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 466.09 321.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14752,7 +16172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 323.088 0)
 			(effects
 				(font
@@ -14761,7 +16181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 321.31 90)
 			(effects
 				(font
@@ -14770,13 +16190,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 466.09 321.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 466.09 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 321.945 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -15010,7 +16457,7 @@
 	)
 	(symbol
 		(lib_id "Mustang_Library:GND")
-		(at 600.71 330.2 0)
+		(at 600.71 342.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15019,7 +16466,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f88bb1a-bb42-4283-a2ac-475750336a72")
 		(property "Reference" "#PWR0210"
-			(at 600.71 336.55 0)
+			(at 600.71 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15028,7 +16475,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 600.71 335.28 0)
+			(at 600.71 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15036,7 +16483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 600.71 330.2 0)
+			(at 600.71 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15045,7 +16492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 600.71 330.2 0)
+			(at 600.71 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15054,7 +16501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 600.71 330.2 0)
+			(at 600.71 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15182,7 +16629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 482.6 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15208,7 +16655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 482.6 159.258 0)
 			(effects
 				(font
@@ -15217,7 +16664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 482.6 157.48 90)
 			(effects
 				(font
@@ -15226,13 +16673,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 482.6 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 482.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 482.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 479.425 158.115 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -15472,7 +16946,7 @@
 		(dnp no)
 		(uuid "447d7433-965b-4665-828f-b95f6074377a")
 		(property "Reference" "U308"
-			(at 103.378 70.104 0)
+			(at 130.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15481,7 +16955,7 @@
 			)
 		)
 		(property "Value" "TPD4E1B06DRLR"
-			(at 103.632 72.898 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15511,15 +16985,6 @@
 		)
 		(property "Description" "Bidirectional Quad-Channel High-Speed ESD Protection Device"
 			(at 129.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf"
-			(at 134.62 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15611,8 +17076,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R")
-		(at 581.66 176.53 270)
+		(lib_id "Mustang_Library:R_0603_12K")
+		(at 577.85 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15620,32 +17085,25 @@
 		(dnp no)
 		(uuid "447e638a-b186-4b90-b3e1-2900cbc6d2d5")
 		(property "Reference" "R3"
-			(at 581.66 174.498 90)
+			(at 580.39 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "12k"
-			(at 581.66 176.53 90)
+		(property "Value" "12K"
+			(at 577.85 176.53 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.016 1.016)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 581.66 174.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 581.66 176.53 0)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 577.85 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15653,13 +17111,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 581.66 176.53 0)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+			(at 577.85 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 577.85 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 577.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0712KL"
+			(at 577.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 574.675 177.165 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -15821,7 +17315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_0R")
 		(at 609.6 304.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15842,11 +17336,12 @@
 			(at 609.6 304.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 609.6 306.578 0)
 			(effects
 				(font
@@ -15855,7 +17350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 609.6 304.8 90)
 			(effects
 				(font
@@ -15864,13 +17359,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant Jumper"
 			(at 609.6 304.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 609.6 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-070RL"
+			(at 609.6 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "J"
+			(at 606.425 305.435 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -15889,7 +17411,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_10K")
 		(at 298.45 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15915,7 +17437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 298.45 138.938 0)
 			(effects
 				(font
@@ -15924,7 +17446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 298.45 137.16 90)
 			(effects
 				(font
@@ -15933,13 +17455,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
 			(at 298.45 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 298.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-7W10KL"
+			(at 298.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".2W"
+			(at 295.275 137.795 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -16033,8 +17582,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R")
-		(at 586.74 312.42 90)
+		(lib_id "Mustang_Library:R_0603_5.23K")
+		(at 584.2 312.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16042,23 +17591,25 @@
 		(dnp no)
 		(uuid "5130e22a-b905-4612-8bcd-97ea0c92639f")
 		(property "Reference" "R310"
-			(at 586.74 310.134 90)
+			(at 586.74 312.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "5.25k"
-			(at 586.74 312.42 90)
+		(property "Value" "5.23K"
+			(at 584.2 312.42 0)
 			(effects
 				(font
 					(size 1.016 1.016)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 586.74 314.198 90)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 584.2 314.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16066,8 +17617,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 586.74 312.42 0)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+			(at 584.2 312.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16075,13 +17626,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 586.74 312.42 0)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 584.2 312.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 584.2 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-075K23L"
+			(at 584.2 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 581.025 313.055 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -16181,7 +17759,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 298.45 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16207,7 +17785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 298.45 142.748 0)
 			(effects
 				(font
@@ -16216,7 +17794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 298.45 140.97 90)
 			(effects
 				(font
@@ -16225,13 +17803,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 298.45 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 298.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 298.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 295.275 141.605 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -16250,7 +17855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 466.09 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16276,7 +17881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 307.848 0)
 			(effects
 				(font
@@ -16285,7 +17890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 306.07 90)
 			(effects
 				(font
@@ -16294,13 +17899,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 466.09 306.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 466.09 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 306.705 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -16385,7 +18017,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 298.45 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16411,7 +18043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 298.45 146.558 0)
 			(effects
 				(font
@@ -16420,7 +18052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 298.45 144.78 90)
 			(effects
 				(font
@@ -16429,13 +18061,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 298.45 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 298.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 298.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 295.275 145.415 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -16521,7 +18180,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 586.74 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16547,7 +18206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 586.74 150.368 0)
 			(effects
 				(font
@@ -16556,7 +18215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 586.74 148.59 90)
 			(effects
 				(font
@@ -16565,13 +18224,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 586.74 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 586.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 586.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 583.565 149.225 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -16760,7 +18446,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_10K")
 		(at 368.3 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16786,7 +18472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 368.3 138.938 0)
 			(effects
 				(font
@@ -16795,7 +18481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 368.3 137.16 90)
 			(effects
 				(font
@@ -16804,13 +18490,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
 			(at 368.3 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 368.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-7W10KL"
+			(at 368.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".2W"
+			(at 365.125 137.795 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -17117,7 +18830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R")
+		(lib_id "Mustang_Library:R_0603_10K")
 		(at 499.11 299.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17126,23 +18839,43 @@
 		(dnp no)
 		(uuid "6c64460a-1dd0-40a6-b73d-2e95e1ed9891")
 		(property "Reference" "R315"
-			(at 497.078 299.72 90)
+			(at 501.65 299.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
+			(at 499.11 299.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 499.11 301.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 499.11 299.72 90)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 497.332 299.72 90)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 499.11 299.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17150,7 +18883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Manufacturer" "Yageo"
 			(at 499.11 299.72 0)
 			(effects
 				(font
@@ -17159,13 +18892,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "MPN" "AC0603FR-7W10KL"
 			(at 499.11 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ".2W"
+			(at 495.935 300.355 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -17190,7 +18932,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_10K")
 		(at 368.3 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17216,7 +18958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 368.3 135.128 0)
 			(effects
 				(font
@@ -17225,7 +18967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 368.3 133.35 90)
 			(effects
 				(font
@@ -17234,13 +18976,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
 			(at 368.3 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 368.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-7W10KL"
+			(at 368.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".2W"
+			(at 365.125 133.985 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -17259,7 +19028,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_5.23K")
 		(at 466.09 346.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17276,7 +19045,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.23K"
 			(at 466.09 346.71 0)
 			(effects
 				(font
@@ -17285,7 +19054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 348.488 0)
 			(effects
 				(font
@@ -17294,7 +19063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 346.71 90)
 			(effects
 				(font
@@ -17303,13 +19072,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
 			(at 466.09 346.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-075K23L"
+			(at 466.09 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 347.345 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -17606,7 +19402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_0R")
 		(at 368.3 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17632,7 +19428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 368.3 119.888 0)
 			(effects
 				(font
@@ -17641,7 +19437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 368.3 118.11 90)
 			(effects
 				(font
@@ -17650,13 +19446,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant Jumper"
 			(at 368.3 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 368.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-070RL"
+			(at 368.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "J"
+			(at 365.125 118.745 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -17675,7 +19498,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 368.3 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17701,7 +19524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 368.3 146.558 0)
 			(effects
 				(font
@@ -17710,7 +19533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 368.3 144.78 90)
 			(effects
 				(font
@@ -17719,13 +19542,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 368.3 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 368.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 368.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 365.125 145.415 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -17877,8 +19727,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R")
-		(at 426.72 123.19 0)
+		(lib_id "Mustang_Library:R_0603_100K")
+		(at 426.72 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17886,32 +19736,25 @@
 		(dnp no)
 		(uuid "820e0347-f76b-4d2b-a66c-2cd921b5f3b2")
 		(property "Reference" "R1"
-			(at 424.688 123.19 90)
+			(at 426.466 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "100k"
-			(at 426.72 123.19 90)
+		(property "Value" "100K"
+			(at 426.72 125.73 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.016 1.016)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 424.942 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 426.72 123.19 0)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 428.498 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17919,13 +19762,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 426.72 123.19 0)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+			(at 426.72 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 426.72 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 426.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-07100KL"
+			(at 426.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 427.355 128.905 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -17944,7 +19823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 586.74 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17970,7 +19849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 586.74 124.968 0)
 			(effects
 				(font
@@ -17979,7 +19858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 586.74 123.19 90)
 			(effects
 				(font
@@ -17988,13 +19867,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 586.74 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 586.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 586.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 583.565 123.825 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -18086,7 +19992,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R")
+		(lib_id "Mustang_Library:R_0603_10K")
 		(at 504.19 299.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18095,23 +20001,43 @@
 		(dnp no)
 		(uuid "88039200-6e27-47a2-88fe-e9bf8874c1c0")
 		(property "Reference" "R314"
-			(at 502.158 299.72 90)
+			(at 506.73 299.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
+			(at 504.19 299.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 504.19 301.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 504.19 299.72 90)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 502.412 299.72 90)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 504.19 299.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18119,7 +20045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Manufacturer" "Yageo"
 			(at 504.19 299.72 0)
 			(effects
 				(font
@@ -18128,13 +20054,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "MPN" "AC0603FR-7W10KL"
 			(at 504.19 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ".2W"
+			(at 501.015 300.355 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -18377,7 +20312,7 @@
 	)
 	(symbol
 		(lib_id "Mustang_Library:Thermistor")
-		(at 600.71 321.31 0)
+		(at 600.71 325.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18386,7 +20321,7 @@
 		(fields_autoplaced yes)
 		(uuid "97e73e75-eb89-4af9-8f09-48c3c9ea81c9")
 		(property "Reference" "TH301"
-			(at 604.52 320.0399 0)
+			(at 604.52 323.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18395,7 +20330,7 @@
 			)
 		)
 		(property "Value" "Thermistor"
-			(at 604.52 322.5799 0)
+			(at 604.52 326.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18404,7 +20339,7 @@
 			)
 		)
 		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 600.71 321.31 0)
+			(at 600.71 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18413,7 +20348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 600.71 321.31 0)
+			(at 600.71 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18422,7 +20357,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor"
-			(at 600.71 321.31 0)
+			(at 600.71 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18452,7 +20387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 466.09 313.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18478,7 +20413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 315.468 0)
 			(effects
 				(font
@@ -18487,7 +20422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 313.69 90)
 			(effects
 				(font
@@ -18496,13 +20431,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 466.09 313.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 466.09 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 314.325 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -18803,17 +20765,16 @@
 	)
 	(symbol
 		(lib_id "Mustang_Library:GNDPWR")
-		(at 229.87 139.7 90)
+		(at 236.22 139.7 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9d77939e-0c2a-4ad3-b57b-352760e512a4")
 		(property "Reference" "#PWR0222"
-			(at 234.95 139.7 0)
+			(at 241.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18822,7 +20783,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 233.68 139.5729 90)
+			(at 234.95 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18831,7 +20792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 139.7 0)
+			(at 237.49 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18840,7 +20801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 139.7 0)
+			(at 237.49 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18849,7 +20810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 229.87 139.7 0)
+			(at 236.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19160,7 +21121,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R")
+		(lib_id "Mustang_Library:R_0603_10K")
 		(at 509.27 299.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19169,23 +21130,43 @@
 		(dnp no)
 		(uuid "aa4ddf1b-dffc-4d79-a411-3aebf897b051")
 		(property "Reference" "R313"
-			(at 507.238 299.72 90)
+			(at 511.81 299.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
+			(at 509.27 299.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 509.27 301.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 509.27 299.72 90)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 507.492 299.72 90)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 509.27 299.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19193,7 +21174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Manufacturer" "Yageo"
 			(at 509.27 299.72 0)
 			(effects
 				(font
@@ -19202,13 +21183,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "MPN" "AC0603FR-7W10KL"
 			(at 509.27 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ".2W"
+			(at 506.095 300.355 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -19233,7 +21223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_0R")
 		(at 609.6 307.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19254,11 +21244,12 @@
 			(at 609.6 307.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 609.6 309.118 0)
 			(effects
 				(font
@@ -19267,7 +21258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 609.6 307.34 90)
 			(effects
 				(font
@@ -19276,13 +21267,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant Jumper"
 			(at 609.6 307.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 609.6 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-070RL"
+			(at 609.6 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "J"
+			(at 606.425 307.975 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -19449,7 +21467,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_0R")
 		(at 168.91 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19470,11 +21488,12 @@
 			(at 168.91 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 168.91 182.118 0)
 			(effects
 				(font
@@ -19483,7 +21502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 168.91 180.34 90)
 			(effects
 				(font
@@ -19492,13 +21511,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant Jumper"
 			(at 168.91 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 168.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-070RL"
+			(at 168.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "J"
+			(at 165.735 180.975 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -19586,7 +21632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_5.23K")
 		(at 466.09 350.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19603,7 +21649,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.23K"
 			(at 466.09 350.52 0)
 			(effects
 				(font
@@ -19612,7 +21658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 352.298 0)
 			(effects
 				(font
@@ -19621,7 +21667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 350.52 90)
 			(effects
 				(font
@@ -19630,13 +21676,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
 			(at 466.09 350.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-075K23L"
+			(at 466.09 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 351.155 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -20045,9 +22118,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:RESISTOR0805_NOOUTLINE")
-		(at 172.72 139.7 0)
-		(mirror x)
+		(lib_id "Mustang_Library:R_0603_5.23K")
+		(at 167.64 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20055,15 +22127,16 @@
 		(dnp no)
 		(uuid "bac60e0c-4905-489f-bb8a-0290c9d60c98")
 		(property "Reference" "R317"
-			(at 172.72 142.24 0)
+			(at 170.18 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 172.72 139.7 0)
+		(property "Value" "5.23K"
+			(at 167.64 139.7 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -20071,8 +22144,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 172.72 139.7 0)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 167.64 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20080,8 +22153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 172.72 139.7 0)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+			(at 167.64 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20089,13 +22162,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-			(at 172.72 139.7 0)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 167.64 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 167.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-075K23L"
+			(at 167.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 164.465 140.335 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -20120,7 +22220,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 586.74 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20146,7 +22246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 586.74 128.778 0)
 			(effects
 				(font
@@ -20155,7 +22255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 586.74 127 90)
 			(effects
 				(font
@@ -20164,13 +22264,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 586.74 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 586.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 586.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 583.565 127.635 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -20666,17 +22793,16 @@
 	)
 	(symbol
 		(lib_id "Mustang_Library:GNDPWR")
-		(at 167.64 139.7 270)
+		(at 162.56 139.7 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c76bfd80-291c-4b52-9a24-06452438abb2")
 		(property "Reference" "#PWR0225"
-			(at 162.56 139.7 0)
+			(at 157.48 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20685,7 +22811,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 163.83 139.8269 90)
+			(at 163.83 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20694,7 +22820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 139.7 0)
+			(at 161.29 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20703,7 +22829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 139.7 0)
+			(at 161.29 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20712,7 +22838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 167.64 139.7 0)
+			(at 162.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20749,7 +22875,7 @@
 		(fields_autoplaced yes)
 		(uuid "caafab04-cb6a-4f62-9710-44545f6e8a0b")
 		(property "Reference" "U4"
-			(at 683.26 234.315 0)
+			(at 683.26 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20757,7 +22883,7 @@
 			)
 		)
 		(property "Value" "LP5907MFX-3.3_NOPB"
-			(at 683.26 236.855 0)
+			(at 683.26 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20804,6 +22930,9 @@
 		(pin "3"
 			(uuid "fe47659a-9334-451e-a30c-969c2a16a868")
 		)
+		(pin "4"
+			(uuid "c9aa3169-814d-474b-86da-7efad21db2e1")
+		)
 		(instances
 			(project ""
 				(path "/5e27fdeb-580f-476f-92aa-43cee2f9d9cd/e0faf2cf-7881-4f25-8c42-ab52e9720230"
@@ -20814,7 +22943,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:RESISTOR0805_NOOUTLINE")
+		(lib_id "Mustang_Library:R_0603_100K")
 		(at 415.29 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20823,14 +22952,15 @@
 		(dnp no)
 		(uuid "cc1d4c23-5991-477f-a8c4-33ed674254c1")
 		(property "Reference" "R2"
-			(at 415.29 116.84 0)
+			(at 417.83 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100K"
 			(at 415.29 119.38 0)
 			(effects
 				(font
@@ -20839,7 +22969,34 @@
 				)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 415.29 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+			(at 415.29 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 415.29 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 415.29 119.38 0)
 			(effects
 				(font
@@ -20848,7 +23005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "MPN" "AC0603FR-07100KL"
 			(at 415.29 119.38 0)
 			(effects
 				(font
@@ -20857,13 +23014,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-			(at 415.29 119.38 0)
+		(property "Power" ".1W"
+			(at 412.115 120.015 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
-				(hide yes)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -21159,7 +23316,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 466.09 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21185,7 +23342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 279.908 0)
 			(effects
 				(font
@@ -21194,7 +23351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 278.13 90)
 			(effects
 				(font
@@ -21203,13 +23360,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 466.09 278.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 466.09 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 278.765 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -21475,16 +23659,15 @@
 	)
 	(symbol
 		(lib_id "Mustang_Library:GND")
-		(at 426.72 127 0)
+		(at 426.72 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e435c307-a19e-4100-8c26-d4e555d1b736")
 		(property "Reference" "#PWR03"
-			(at 426.72 133.35 0)
+			(at 426.72 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21493,7 +23676,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 426.72 132.08 0)
+			(at 426.72 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21501,7 +23684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 426.72 127 0)
+			(at 426.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21510,7 +23693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 426.72 127 0)
+			(at 426.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21519,7 +23702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 426.72 127 0)
+			(at 426.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21607,7 +23790,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 466.09 281.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21633,7 +23816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 283.718 0)
 			(effects
 				(font
@@ -21642,7 +23825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 281.94 90)
 			(effects
 				(font
@@ -21651,13 +23834,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 466.09 281.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 466.09 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 282.575 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -21676,8 +23886,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R")
-		(at 509.27 274.32 90)
+		(lib_id "Mustang_Library:R_0603_249R")
+		(at 504.19 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21685,23 +23895,25 @@
 		(dnp no)
 		(uuid "f1292cf9-6a48-412b-8924-2a2262e838f2")
 		(property "Reference" "R311"
-			(at 509.27 272.034 90)
+			(at 506.73 274.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "250R"
-			(at 509.27 274.32 90)
+		(property "Value" "249R"
+			(at 504.19 274.32 0)
 			(effects
 				(font
 					(size 1.016 1.016)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 509.27 276.098 90)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 504.19 276.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21709,8 +23921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 509.27 274.32 0)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+			(at 504.19 274.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21718,13 +23930,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 509.27 274.32 0)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
+			(at 504.19 274.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 504.19 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-07249RL"
+			(at 504.19 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 501.015 274.955 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -21890,7 +24129,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 368.3 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21916,7 +24155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 368.3 142.748 0)
 			(effects
 				(font
@@ -21925,7 +24164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 368.3 140.97 90)
 			(effects
 				(font
@@ -21934,13 +24173,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 368.3 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 368.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 368.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 365.125 141.605 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -21959,7 +24225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 482.6 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21985,7 +24251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 482.6 155.448 0)
 			(effects
 				(font
@@ -21994,7 +24260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 482.6 153.67 90)
 			(effects
 				(font
@@ -22003,13 +24269,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 482.6 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 482.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 482.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 479.425 154.305 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -22028,7 +24321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 466.09 309.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22054,7 +24347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 311.658 0)
 			(effects
 				(font
@@ -22063,7 +24356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 309.88 90)
 			(effects
 				(font
@@ -22072,13 +24365,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 466.09 309.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 466.09 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 310.515 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -22097,7 +24417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_5.23K")
 		(at 466.09 354.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22114,7 +24434,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.23K"
 			(at 466.09 354.33 0)
 			(effects
 				(font
@@ -22123,7 +24443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 466.09 356.108 0)
 			(effects
 				(font
@@ -22132,7 +24452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 466.09 354.33 90)
 			(effects
 				(font
@@ -22141,13 +24461,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
 			(at 466.09 354.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-075K23L"
+			(at 466.09 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 462.915 354.965 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -22166,7 +24513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R")
+		(lib_id "Mustang_Library:R_0603_10K")
 		(at 494.03 299.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22175,23 +24522,43 @@
 		(dnp no)
 		(uuid "f504cc3d-b8e6-43ae-882b-f90712bfa4d5")
 		(property "Reference" "R316"
-			(at 491.998 299.72 90)
+			(at 496.57 299.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
+			(at 494.03 299.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 494.03 301.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 494.03 299.72 90)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 492.252 299.72 90)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 494.03 299.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22199,7 +24566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Manufacturer" "Yageo"
 			(at 494.03 299.72 0)
 			(effects
 				(font
@@ -22208,13 +24575,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "MPN" "AC0603FR-7W10KL"
 			(at 494.03 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ".2W"
+			(at 490.855 300.355 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -22239,7 +24615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_0R")
 		(at 368.3 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22265,7 +24641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 368.3 123.698 0)
 			(effects
 				(font
@@ -22274,7 +24650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 368.3 121.92 90)
 			(effects
 				(font
@@ -22283,13 +24659,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant Jumper"
 			(at 368.3 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 368.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-070RL"
+			(at 368.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "J"
+			(at 365.125 122.555 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -22318,7 +24721,7 @@
 		(dnp no)
 		(uuid "f60535f2-9b83-4d18-9cd3-9e41f2749df2")
 		(property "Reference" "U307"
-			(at 100.838 125.984 0)
+			(at 128.27 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22327,7 +24730,7 @@
 			)
 		)
 		(property "Value" "TPD4E1B06DRLR"
-			(at 101.092 128.778 0)
+			(at 113.03 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22357,15 +24760,6 @@
 		)
 		(property "Description" "Bidirectional Quad-Channel High-Speed ESD Protection Device"
 			(at 127 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf"
-			(at 132.08 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22457,8 +24851,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R")
-		(at 594.36 322.58 180)
+		(lib_id "Mustang_Library:R_0603_30.9K")
+		(at 594.36 326.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22466,34 +24860,25 @@
 		(dnp no)
 		(uuid "f6e08234-7748-411a-ac6f-a326cf57f7db")
 		(property "Reference" "R309"
-			(at 592.582 321.818 0)
+			(at 594.106 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "31.23k"
-			(at 594.36 320.294 90)
+		(property "Value" "30.9K"
+			(at 594.36 326.39 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.016 1.016)
+					(bold yes)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Mustang_Library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 596.138 322.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 594.36 322.58 0)
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
+			(at 596.138 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22501,13 +24886,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 594.36 322.58 0)
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
+			(at 594.36 326.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 1% 100ppm"
+			(at 594.36 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 594.36 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0730K9L"
+			(at 594.36 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 594.995 329.565 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -22532,7 +24953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 482.6 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22558,7 +24979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 482.6 163.068 0)
 			(effects
 				(font
@@ -22567,7 +24988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 482.6 161.29 90)
 			(effects
 				(font
@@ -22576,13 +24997,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 482.6 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 482.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 482.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 479.425 161.925 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -22601,7 +25049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_24R")
 		(at 586.74 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22627,7 +25075,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 586.74 142.748 0)
 			(effects
 				(font
@@ -22636,7 +25084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 586.74 140.97 90)
 			(effects
 				(font
@@ -22645,13 +25093,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant 0.1W 1% 100ppm"
 			(at 586.74 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 586.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-0724RL"
+			(at 586.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ".1W"
+			(at 583.565 141.605 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"

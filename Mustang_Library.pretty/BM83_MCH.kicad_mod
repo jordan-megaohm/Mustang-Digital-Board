@@ -719,4 +719,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b87e7a21-02bb-493e-8879-420af7d1d7c9")
 	)
+	(model "${KIPRJMOD}/Models/BM83SM1-00TB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

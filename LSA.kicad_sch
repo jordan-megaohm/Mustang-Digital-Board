@@ -1861,7 +1861,7 @@
 				)
 			)
 		)
-		(symbol "Mustang_Library:R_h"
+		(symbol "Mustang_Library:R_0603_0R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -1878,15 +1878,16 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R"
+			(property "Value" "0R"
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
+						(bold yes)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 				(at 0 -1.778 0)
 				(effects
 					(font
@@ -1895,7 +1896,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 				(at 0 0 90)
 				(effects
 					(font
@@ -1904,13 +1905,40 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant Jumper"
 				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AC0603JR-070RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "J"
+				(at -3.175 -0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify right top)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
@@ -1931,7 +1959,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_h_0_1"
+			(symbol "R_0603_0R_0_1"
 				(rectangle
 					(start 2.54 -1.016)
 					(end -2.54 1.016)
@@ -1944,7 +1972,7 @@
 					)
 				)
 			)
-			(symbol "R_h_1_1"
+			(symbol "R_0603_0R_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1985,7 +2013,7 @@
 		)
 	)
 	(junction
-		(at 149.86 170.18)
+		(at 152.4 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03632853-85fa-4a2b-829b-dfca164152e4")
@@ -2033,7 +2061,7 @@
 		(uuid "649035f8-a7fd-4eaf-b175-8fe65a01e012")
 	)
 	(junction
-		(at 153.67 172.72)
+		(at 156.21 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6518143b-7ef4-4bd7-9a0c-dc6ba0a54774")
@@ -2045,7 +2073,7 @@
 		(uuid "69ad95f9-8534-4bf2-9353-494e7654c2c8")
 	)
 	(junction
-		(at 139.7 240.03)
+		(at 137.16 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b6cc660-7210-4e20-8e52-d490281c6cb9")
@@ -2057,19 +2085,19 @@
 		(uuid "6bb0b308-bb77-44b8-8639-ad3699e24494")
 	)
 	(junction
-		(at 139.7 247.65)
+		(at 137.16 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7086efad-55c9-450f-b748-f27e231dec71")
 	)
 	(junction
-		(at 149.86 167.64)
+		(at 152.4 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "957dbcde-69e2-4e25-a9c3-c36bbe1dd07a")
 	)
 	(junction
-		(at 139.7 232.41)
+		(at 137.16 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98534c7b-3382-48ae-850e-2a3a1476de14")
@@ -2093,7 +2121,7 @@
 		(uuid "bb452f03-5c16-488f-bfed-07ea706c60bf")
 	)
 	(junction
-		(at 139.7 271.78)
+		(at 137.16 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcfa4414-cca0-433d-965e-ee0fe072e858")
@@ -2123,7 +2151,7 @@
 		(uuid "ed7fb6d0-11fd-4eaa-a7ed-ae85de25c9e4")
 	)
 	(junction
-		(at 139.7 224.79)
+		(at 137.16 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3641629-59ec-4758-945e-aaeda8b84f21")
@@ -2136,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 167.64) (xy 149.86 165.1)
+			(xy 152.4 167.64) (xy 152.4 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2146,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 170.18) (xy 149.86 167.64)
+			(xy 152.4 170.18) (xy 152.4 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2166,7 +2194,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 209.55) (xy 158.75 209.55)
+			(xy 104.14 209.55) (xy 158.75 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2186,7 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 240.03) (xy 139.7 247.65)
+			(xy 137.16 240.03) (xy 137.16 247.65)
 		)
 		(stroke
 			(width 0)
@@ -2206,7 +2234,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 114.3) (xy 156.21 114.3)
+			(xy 104.14 114.3) (xy 158.75 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2244,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 137.16) (xy 156.21 137.16)
+			(xy 137.16 137.16) (xy 158.75 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2256,7 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 217.17) (xy 152.4 217.17)
+			(xy 137.16 217.17) (xy 152.4 217.17)
 		)
 		(stroke
 			(width 0)
@@ -2266,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 157.48) (xy 156.21 157.48)
+			(xy 119.38 157.48) (xy 158.75 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 232.41) (xy 139.7 240.03)
+			(xy 137.16 232.41) (xy 137.16 240.03)
 		)
 		(stroke
 			(width 0)
@@ -2296,7 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 217.17) (xy 139.7 224.79)
+			(xy 137.16 217.17) (xy 137.16 224.79)
 		)
 		(stroke
 			(width 0)
@@ -2316,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 255.27) (xy 158.75 255.27)
+			(xy 104.14 255.27) (xy 158.75 255.27)
 		)
 		(stroke
 			(width 0)
@@ -2336,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 132.08) (xy 156.21 132.08)
+			(xy 104.14 132.08) (xy 158.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2346,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 232.41) (xy 158.75 232.41)
+			(xy 137.16 232.41) (xy 158.75 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2446,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 224.79) (xy 139.7 232.41)
+			(xy 137.16 224.79) (xy 137.16 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 212.09) (xy 158.75 212.09)
+			(xy 104.14 212.09) (xy 158.75 212.09)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 165.1) (xy 156.21 165.1)
+			(xy 152.4 165.1) (xy 158.75 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 116.84) (xy 156.21 116.84)
+			(xy 104.14 116.84) (xy 158.75 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 121.92) (xy 156.21 121.92)
+			(xy 152.4 121.92) (xy 158.75 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2506,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 129.54) (xy 156.21 129.54)
+			(xy 137.16 129.54) (xy 158.75 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2516,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 124.46) (xy 156.21 124.46)
+			(xy 144.78 124.46) (xy 158.75 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 147.32) (xy 156.21 147.32)
+			(xy 104.14 147.32) (xy 158.75 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 227.33) (xy 158.75 227.33)
+			(xy 104.14 227.33) (xy 158.75 227.33)
 		)
 		(stroke
 			(width 0)
@@ -2566,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 224.79) (xy 158.75 224.79)
+			(xy 137.16 224.79) (xy 158.75 224.79)
 		)
 		(stroke
 			(width 0)
@@ -2576,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 119.38) (xy 156.21 119.38)
+			(xy 130.81 119.38) (xy 158.75 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 139.7) (xy 156.21 139.7)
+			(xy 121.92 139.7) (xy 158.75 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2626,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 271.78) (xy 139.7 275.59)
+			(xy 137.16 271.78) (xy 137.16 275.59)
 		)
 		(stroke
 			(width 0)
@@ -2646,7 +2674,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 242.57) (xy 158.75 242.57)
+			(xy 104.14 242.57) (xy 158.75 242.57)
 		)
 		(stroke
 			(width 0)
@@ -2656,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 172.72) (xy 149.86 170.18)
+			(xy 152.4 172.72) (xy 152.4 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2666,7 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 144.78) (xy 156.21 144.78)
+			(xy 137.16 144.78) (xy 158.75 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 154.94) (xy 156.21 154.94)
+			(xy 104.14 154.94) (xy 158.75 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 237.49) (xy 158.75 237.49)
+			(xy 104.14 237.49) (xy 158.75 237.49)
 		)
 		(stroke
 			(width 0)
@@ -2726,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 170.18) (xy 156.21 170.18)
+			(xy 152.4 170.18) (xy 158.75 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2746,7 +2774,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 247.65) (xy 158.75 247.65)
+			(xy 137.16 247.65) (xy 158.75 247.65)
 		)
 		(stroke
 			(width 0)
@@ -2766,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 247.65) (xy 139.7 271.78)
+			(xy 137.16 247.65) (xy 137.16 271.78)
 		)
 		(stroke
 			(width 0)
@@ -2786,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 271.78) (xy 139.7 271.78)
+			(xy 142.24 271.78) (xy 137.16 271.78)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 167.64) (xy 156.21 167.64)
+			(xy 152.4 167.64) (xy 158.75 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2816,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 149.86) (xy 156.21 149.86)
+			(xy 104.14 149.86) (xy 158.75 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 172.72) (xy 153.67 172.72)
+			(xy 158.75 172.72) (xy 156.21 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2846,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 142.24) (xy 156.21 142.24)
+			(xy 104.14 142.24) (xy 158.75 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 222.25) (xy 158.75 222.25)
+			(xy 104.14 222.25) (xy 158.75 222.25)
 		)
 		(stroke
 			(width 0)
@@ -2886,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 240.03) (xy 158.75 240.03)
+			(xy 137.16 240.03) (xy 158.75 240.03)
 		)
 		(stroke
 			(width 0)
@@ -2896,7 +2924,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 152.4) (xy 156.21 152.4)
+			(xy 137.16 152.4) (xy 158.75 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2906,7 +2934,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 250.19) (xy 158.75 250.19)
+			(xy 104.14 250.19) (xy 158.75 250.19)
 		)
 		(stroke
 			(width 0)
@@ -2916,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 127) (xy 156.21 127)
+			(xy 104.14 127) (xy 158.75 127)
 		)
 		(stroke
 			(width 0)
@@ -2936,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 134.62) (xy 156.21 134.62)
+			(xy 124.46 134.62) (xy 158.75 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2946,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 172.72) (xy 153.67 176.53)
+			(xy 156.21 172.72) (xy 156.21 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2966,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 245.11) (xy 158.75 245.11)
+			(xy 104.14 245.11) (xy 158.75 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2986,7 +3014,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 160.02) (xy 156.21 160.02)
+			(xy 104.14 160.02) (xy 158.75 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3006,7 +3034,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 176.53) (xy 153.67 176.53)
+			(xy 147.32 176.53) (xy 156.21 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 172.72) (xy 149.86 172.72)
+			(xy 156.21 172.72) (xy 152.4 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3207,7 @@
 	)
 	(text "1.8V I2C for HR_INT left side"
 		(exclude_from_sim no)
-		(at 81.28 227.33 0)
+		(at 78.74 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3189,7 +3217,7 @@
 	)
 	(text "1.8V I2C for left side"
 		(exclude_from_sim no)
-		(at 86.36 232.41 0)
+		(at 83.82 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3218,8 +3246,8 @@
 		(uuid "a600463f-df1e-4945-8530-18488da9ac33")
 	)
 	(hierarchical_label "TALK_MICR"
-		(shape input)
-		(at 106.68 222.25 180)
+		(shape output)
+		(at 104.14 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3254,8 +3282,8 @@
 		(uuid "095fe3a2-8fc9-4c38-b545-9e50789212dd")
 	)
 	(hierarchical_label "SPI_MISOR"
-		(shape input)
-		(at 106.68 237.49 180)
+		(shape output)
+		(at 104.14 237.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3266,7 +3294,7 @@
 		(uuid "0cb295a6-3518-4df3-94ef-0f7dcb17b984")
 	)
 	(hierarchical_label "REF"
-		(shape input)
+		(shape output)
 		(at 104.14 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3291,7 +3319,7 @@
 	)
 	(hierarchical_label "SPI_CKR"
 		(shape input)
-		(at 106.68 242.57 180)
+		(at 104.14 242.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3302,8 +3330,8 @@
 		(uuid "1b5ce3b7-742f-4586-9790-4b6d44a394d5")
 	)
 	(hierarchical_label "ADS_DRDYR"
-		(shape input)
-		(at 106.68 255.27 180)
+		(shape output)
+		(at 104.14 255.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3314,7 +3342,7 @@
 		(uuid "2adde7c0-ca5b-4041-ad22-061a4a33e657")
 	)
 	(hierarchical_label "TALK_MICL"
-		(shape input)
+		(shape output)
 		(at 104.14 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3326,7 +3354,7 @@
 		(uuid "364997aa-66b4-49ef-9fd6-b5708fc0b934")
 	)
 	(hierarchical_label "I2C_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 104.14 134.62 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3338,7 +3366,7 @@
 		(uuid "3a28c560-0c8d-4796-9c35-8c86915fb83e")
 	)
 	(hierarchical_label "ADS_DRDYL"
-		(shape input)
+		(shape output)
 		(at 104.14 160.02 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3350,7 +3378,7 @@
 		(uuid "481288d2-a52b-4793-9c46-55f9be8ae221")
 	)
 	(hierarchical_label "SPI_MISOL"
-		(shape input)
+		(shape output)
 		(at 104.14 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3363,7 +3391,7 @@
 	)
 	(hierarchical_label "SPI_MOSIR"
 		(shape input)
-		(at 106.68 245.11 180)
+		(at 104.14 245.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3374,8 +3402,8 @@
 		(uuid "87d328c6-954d-4530-8cb1-68e914ca0ef9")
 	)
 	(hierarchical_label "HR_INTR"
-		(shape input)
-		(at 106.68 227.33 180)
+		(shape output)
+		(at 104.14 227.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3386,7 +3414,7 @@
 		(uuid "92a92802-84bf-47d6-b5f0-f77ede33b803")
 	)
 	(hierarchical_label "I2C_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 104.14 139.7 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3423,7 +3451,7 @@
 	)
 	(hierarchical_label "SPK_AUDIO-R"
 		(shape input)
-		(at 106.68 212.09 180)
+		(at 104.14 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3459,7 +3487,7 @@
 	)
 	(hierarchical_label "SPI_CSR"
 		(shape input)
-		(at 106.68 250.19 180)
+		(at 104.14 250.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3471,7 +3499,7 @@
 	)
 	(hierarchical_label "SPK_AUDIO+R"
 		(shape input)
-		(at 106.68 209.55 180)
+		(at 104.14 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3563,7 +3591,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "Mustang_Library:GND")
-		(at 139.7 275.59 0)
+		(at 137.16 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3572,7 +3600,7 @@
 		(fields_autoplaced yes)
 		(uuid "624157b7-0936-493b-aaba-319fdda1d021")
 		(property "Reference" "#PWR06"
-			(at 139.7 281.94 0)
+			(at 137.16 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 280.67 0)
+			(at 137.16 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +3617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 275.59 0)
+			(at 137.16 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 275.59 0)
+			(at 137.16 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 275.59 0)
+			(at 137.16 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +3657,7 @@
 	)
 	(symbol
 		(lib_id "Mustang_Library:685119248123_Left")
-		(at 176.53 137.16 0)
+		(at 179.07 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3637,7 +3665,7 @@
 		(dnp no)
 		(uuid "7698c72f-af21-438e-ba71-fc20921ccf02")
 		(property "Reference" "J1"
-			(at 176.53 109.22 0)
+			(at 179.07 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3674,7 @@
 			)
 		)
 		(property "Value" "685119248123"
-			(at 188.214 137.16 0)
+			(at 190.754 137.16 0)
 			(effects
 				(font
 					(face "Arial Narrow")
@@ -3657,7 +3685,7 @@
 			)
 		)
 		(property "Footprint" "Mustang_Library:685119248123"
-			(at 176.53 137.16 0)
+			(at 179.07 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,7 +3695,7 @@
 			)
 		)
 		(property "Datasheet" "Datasheet/685119248123.pdf"
-			(at 188.214 137.16 0)
+			(at 190.754 137.16 0)
 			(effects
 				(font
 					(face "Arial Narrow")
@@ -3677,7 +3705,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 188.214 137.16 0)
+			(at 190.754 137.16 0)
 			(effects
 				(font
 					(face "Arial Narrow")
@@ -3687,7 +3715,7 @@
 			)
 		)
 		(property "MOUNT" "SMT"
-			(at 188.214 137.16 0)
+			(at 190.754 137.16 0)
 			(effects
 				(font
 					(face "Arial Narrow")
@@ -3698,7 +3726,7 @@
 			)
 		)
 		(property "VALUE" "685119248123"
-			(at 176.53 137.16 0)
+			(at 179.07 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +3736,7 @@
 			)
 		)
 		(property "PINS" "19"
-			(at 188.214 137.16 0)
+			(at 190.754 137.16 0)
 			(effects
 				(font
 					(face "Arial Narrow")
@@ -3719,7 +3747,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/685119248123?ae"
-			(at 176.53 137.16 0)
+			(at 179.07 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3757,7 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" "40VAC"
-			(at 188.214 137.16 0)
+			(at 190.754 137.16 0)
 			(effects
 				(font
 					(face "Arial Narrow")
@@ -3740,7 +3768,7 @@
 			)
 		)
 		(property "PART-NUMBER" "685119248123"
-			(at 188.214 137.16 0)
+			(at 190.754 137.16 0)
 			(effects
 				(font
 					(face "Arial Narrow")
@@ -3751,7 +3779,7 @@
 			)
 		)
 		(property "RATED-CURRENT" "0.5A"
-			(at 188.214 137.16 0)
+			(at 190.754 137.16 0)
 			(effects
 				(font
 					(face "Arial Narrow")
@@ -3762,7 +3790,7 @@
 			)
 		)
 		(property "TYPE" "Horizontal"
-			(at 188.214 137.16 0)
+			(at 190.754 137.16 0)
 			(effects
 				(font
 					(face "Arial Narrow")
@@ -3773,7 +3801,7 @@
 			)
 		)
 		(property "GERDER" "Receptacle"
-			(at 188.214 137.16 0)
+			(at 190.754 137.16 0)
 			(effects
 				(font
 					(face "Arial Narrow")
@@ -3784,7 +3812,7 @@
 			)
 		)
 		(property "Side" "LEFT"
-			(at 184.15 107.95 0)
+			(at 186.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4144,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_0R")
 		(at 146.05 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4137,11 +4165,12 @@
 			(at 146.05 271.78 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 146.05 273.558 0)
 			(effects
 				(font
@@ -4150,7 +4179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 146.05 271.78 90)
 			(effects
 				(font
@@ -4159,13 +4188,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant Jumper"
 			(at 146.05 271.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 146.05 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-070RL"
+			(at 146.05 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "J"
+			(at 142.875 272.415 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -4318,7 +4374,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mustang_Library:R_h")
+		(lib_id "Mustang_Library:R_0603_0R")
 		(at 143.51 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4339,11 +4395,12 @@
 			(at 143.51 176.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mustang_Library:R_0603_1608Metric"
 			(at 143.51 178.308 0)
 			(effects
 				(font
@@ -4352,7 +4409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Datasheet/PYu-AC_51_RoHS_L_10.pdf"
 			(at 143.51 176.53 90)
 			(effects
 				(font
@@ -4361,13 +4418,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0603 Resistor AEC-Q200 Moisture Resistant Jumper"
 			(at 143.51 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 143.51 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603JR-070RL"
+			(at 143.51 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "J"
+			(at 140.335 177.165 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
